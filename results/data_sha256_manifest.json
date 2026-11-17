@@ -1,0 +1,67 @@
+[
+  {
+    "file": "data\\processed\\cherry_cgr3d.npz",
+    "bytes": 197192619,
+    "sha256": "4e1360850816b15acc27331148bf50214e034432302784e2493b8e32263af978"
+  },
+  {
+    "file": "data\\processed\\cherry_host_fcgr.npz",
+    "bytes": 2204527,
+    "sha256": "1510d8cdde60d488504133a71809cbdea12c9771a1460b817e3d3357708162fb"
+  },
+  {
+    "file": "data\\processed\\cherry_host_protein_features.npz",
+    "bytes": 76066,
+    "sha256": "b6227c7f3eaa613ee8b47d1813b6171cef239c604b777f8ada3495ddedf89dd3"
+  },
+  {
+    "file": "data\\processed\\cherry_processed.npz",
+    "bytes": 8506532,
+    "sha256": "cc10da9c5226b2e4686c00068acbf21306790cfb2b62e908cbc48d3c10b52de0"
+  },
+  {
+    "file": "data\\processed\\cherry_protein_features.npz",
+    "bytes": 621652,
+    "sha256": "82990ae533ccda4809638440539f112f89cd0b4efcc5b4f78c4e0ca504413478"
+  },
+  {
+    "file": "data\\processed\\cherry_sketches.npz",
+    "bytes": 12636586,
+    "sha256": "bcfbe27c34b41153a2285d135696f16ad9374ea5fa7b17e7bbba056b5c312f4f"
+  },
+  {
+    "file": "data\\processed\\deephost_host_fcgr.npz",
+    "bytes": 1169138,
+    "sha256": "0194d4e5d40810b2935bc8e0dbc62c4df42dec8e0acdac50672fb3ba0e67c8e7"
+  },
+  {
+    "file": "data\\processed\\deephost_host_protein_features.npz",
+    "bytes": 40219,
+    "sha256": "c3859d967759053766b99edea9bd8636ac1850d4c8c6dc993e628af46ec6dd24"
+  },
+  {
+    "file": "data\\processed\\deephost_processed.npz",
+    "bytes": 16542620,
+    "sha256": "5683dde564f94bd934a152b17f45c910723dae05df73f3758d372031dd2581cf"
+  },
+  {
+    "file": "data\\processed\\deephost_protein_features.npz",
+    "bytes": 943573,
+    "sha256": "6917c544dc3b7527fc4ecb304066d4acfe3399bda5811ad3e8f53237e51dec8d"
+  },
+  {
+    "file": "data\\processed\\deephost_std_processed.npz",
+    "bytes": 13021774,
+    "sha256": "bd5add88cfb3ddeae9e6591deaa70f80d165bf762ec58d84dc65a6aa24b5b209"
+  },
+  {
+    "file": "data\\processed\\deephost_std_sketches.npz",
+    "bytes": 19002412,
+    "sha256": "8782993db1e53e8394de4804b6ba1878831ab6b0b047a4d6fa8dbfac97aa3cae"
+  },
+  {
+    "file": "data\\processed\\host_protein_cache.pkl",
+    "bytes": 112068,
+    "sha256": "cb6525577a4294ee5dea8f1eaf55b35aa6c1cbeff0d92ea522733c37e3e99ddb"
+  }
+]

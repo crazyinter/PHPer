@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Large / generated data (see data/README.md)
+data/processed/*.npz
+data/processed/*.pkl
+data/fasta/deephost_hosts/*.fasta
+data/fasta/alt_representatives/*.fasta
+data/raw/
+*.npz
+!manuscript/latex/**
+
+# Model checkpoints
+models/
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.log
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc

@@ -1,0 +1,119 @@
+class_id,species,accession,title,strain,assembly_level,n_contig,total_length,ambiguous_bases,n50,longest_contig
+0,Mycobacterium smegmatis,NC_008596,pinned reference genome,,Complete genome,1,6988209,0,6988209,6988209
+1,Gordonia terrae,1397582435,"Gordonia terrae strain NRRL B-16283 chromosome, complete genome",NRRL B-16283,Complete genome,1,5708950,0,5708950,5708950
+2,Escherichia coli,2873344971,"Escherichia coli O121 strain GTVSS-020 chromosome, complete genome",GTVSS-020,Complete genome,1,5421422,0,5421422,5421422
+3,Microbacterium foliorum,1447489561,"Microbacterium foliorum strain NRRL B-24224 chromosome, complete genome",NRRL B-24224,Complete genome,1,3568138,0,3568138,3568138
+4,Pseudomonas aeruginosa,3406177412,"Pseudomonas aeruginosa strain 511570-22 chromosome, complete genome",511570-22,Complete genome,1,7169381,0,7169381,7169381
+5,Salmonella enterica,2084197977,"Salmonella enterica strain sg1722-1 chromosome, complete genome",sg1722-1,Complete genome,1,4972233,0,4972233,4972233
+6,Lactococcus lactis,2447854661,"Lactococcus lactis strain LB7 chromosome, complete genome",LB7,Complete genome,1,2603291,0,2603291,2603291
+7,Staphylococcus aureus,2222918967,"Staphylococcus aureus strain PartE-Saureus-RM8376 chromosome, complete genome",PartE-Saureus-RM8376,Complete genome,1,2964115,0,2964115,2964115
+8,Propionibacterium acnes,2514914426,"Cutibacterium acnes strain W81 chromosome, complete genome",W81,Complete genome,1,2560819,0,2560819,2560819
+9,Klebsiella pneumoniae,3423655403,"Klebsiella pneumoniae strain MRSN410359 chromosome, whole genome shotgun sequence",MRSN410359,Complete genome,1,5521599,0,5521599,5521599
+10,Streptomyces griseus,2861399239,"Streptomyces griseus strain NBC_01018 chromosome, complete genome",NBC_01018,Complete genome,1,8537117,0,8537117,8537117
+11,Arthrobacter globiformis,3412612304,"Arthrobacter globiformis strain MIQDR-18, whole genome shotgun sequencing project",MIQDR-18,No sequence available,0,0,0,0,0
+12,Vibrio cholerae,806464118,"Vibrio cholerae strain 10432-62 chromosome, complete genome",10432-62,Complete genome,1,4077462,0,4077462,4077462
+13,Acinetobacter baumannii,3418127693,"Acinetobacter baumannii strain 32104 chromosome, whole genome shotgun sequence",32104,Complete genome,1,4228449,0,4228449,4228449
+14,Listeria monocytogenes,3071602830,"Listeria monocytogenes strain PNUSAL007562 chromosome, whole genome shotgun sequence",PNUSAL007562,Complete genome,1,3078398,0,3078398,3078398
+15,Gordonia rubripertincta,1832540450,"Gordonia rubripertincta strain ATCC 14352, whole genome shotgun sequencing project",ATCC 14352,No sequence available,0,0,0,0,0
+16,Bacillus thuringiensis,238801508,"Bacillus thuringiensis serovar huazhongensis BGSC 4BD1 chromosome, whole genome shotgun sequence",,Complete genome,1,6231196,27846,6231196,6231196
+17,Enterococcus faecalis,3395522847,"Enterococcus faecalis strain MS8005 chromosome, whole genome shotgun sequence",MS8005,Complete genome,1,3192962,0,3192962,3192962
+18,Bacillus cereus,2801553374,"Bacillus cereus strain QKG-2024 chromosome, complete genome",QKG-2024,Complete genome,1,5830992,0,5830992,5830992
+19,Rhodococcus erythropolis,2181137649,"Rhodococcus erythropolis strain D310-1 chromosome, complete genome",D310-1,Complete genome,1,6509297,0,6509297,6509297
+20,Streptomyces lividans,3372002525,Streptomyces lividans strain H_W2 chromosome,H_W2,Complete genome,1,8316556,0,8316556,8316556
+21,Cellulophaga baltica,751335006,"Cellulophaga baltica 18 chromosome, complete genome",,Complete genome,1,4635105,0,4635105,4635105
+22,Erwinia amylovora,1997748099,"Erwinia amylovora strain ATCC 15580 chromosome, complete genome",ATCC 15580,Complete genome,1,3807395,0,3807395,3807395
+23,Ralstonia solanacearum,1531919446,Ralstonia solanacearum strain UA-1609 chromosome,UA-1609,Complete genome,1,5068052,100,5068052,5068052
+24,Microbacterium paraoxydans,3111312340,"Microbacterium paraoxydans strain M2A3_1c, whole genome shotgun sequencing project",M2A3_1c,No sequence available,0,0,0,0,0
+25,Clostridium difficile,3384642003,"Clostridioides difficile isolate CD111 chromosome, whole genome shotgun sequence",,Complete genome,1,4431866,0,4431866,4431866
+26,Vibrio parahaemolyticus,2070558768,Vibrio parahaemolyticus strain Colony524 chromosome 1,Colony524,Complete genome,1,3577848,477077,3577848,3577848
+27,Shigella flexneri,2205636574,"Shigella flexneri strain STLEFF_38 chromosome, complete genome",STLEFF_38,Complete genome,1,4659807,0,4659807,4659807
+28,Streptococcus thermophilus,3340667896,"Streptococcus thermophilus strain Douc24 chromosome, whole genome shotgun sequence",Douc24,Complete genome,1,2167365,0,2167365,2167365
+29,Cronobacter sakazakii,817657568,"Cronobacter sakazakii strain ATCC 29544 chromosome, complete genome",ATCC 29544,Complete genome,1,4511265,0,4511265,4511265
+30,Bacillus megaterium,1441364184,"Priestia megaterium strain SR7 chromosome, complete genome",SR7,Complete genome,1,5449951,0,5449951,5449951
+31,Streptococcus pneumoniae,3397530430,"Streptococcus pneumoniae isolate b509c1de-353a-11ee-8da2-fa163eea3084 chromosome 1, complete sequence",,Complete genome,1,2215181,0,2215181,2215181
+32,Clostridium perfringens,3004886033,"Clostridium perfringens strain 2019-01-3502-1_1 chromosome, complete genome",2019-01-3502-1_1,Complete genome,1,3532600,0,3532600,3532600
+33,Bacillus subtilis,3404231180,"Bacillus subtilis strain NB379 chromosome, whole genome shotgun sequence",NB379,Complete genome,1,4400684,0,4400684,4400684
+34,Burkholderia cenocepacia,1148532877,"Burkholderia cenocepacia strain VC7848 chromosome, complete genome",VC7848,Complete genome,1,7499459,0,7499459,7499459
+35,Bacillus pumilus,3340389289,"Bacillus pumilus strain 292_cr chromosome, whole genome shotgun sequence",292_cr,Complete genome,1,3916322,0,3916322,3916322
+36,Streptomyces venezuelae,1752014777,"Streptomyces venezuelae strain ATCC 14584 chromosome, complete genome",ATCC 14584,Complete genome,1,8942078,0,8942078,8942078
+37,Aeromonas salmonicida,2281926866,"Aeromonas salmonicida strain FN1 chromosome, complete genome",FN1,Complete genome,1,5099029,0,5099029,5099029
+38,Lactobacillus delbrueckii,1119614029,"Lactobacillus delbrueckii subsp. lactis strain KCCM 34717 chromosome, complete genome",KCCM 34717,Complete genome,1,2263382,0,2263382,2263382
+39,Citrobacter freundii,2958452002,"Citrobacter freundii strain M21 chromosome, complete genome",M21,Complete genome,1,5255733,0,5255733,5255733
+40,Caulobacter crescentus,1883402297,"Caulobacter vibrioides strain CB13b1a chromosome, complete genome",CB13b1a,Complete genome,1,4144051,0,4144051,4144051
+41,Streptomyces xanthochromogenes,1907418518,"Streptomyces xanthochromogenes strain JCM 4594, whole genome shotgun sequencing project",JCM 4594,No sequence available,0,0,0,0,0
+42,Streptomyces viridochromogenes,NZ_MUML00000000,WGS contigs merged,,Contig,757,7333324,2608,18965,70521
+43,Streptomyces scabiei,2026791884,Streptomyces scabiei strain LBUM 1480 chromosome,LBUM 1480,Complete genome,1,9982980,0,9982980,9982980
+44,Stenotrophomonas maltophilia,1907029499,"Stenotrophomonas maltophilia strain SM 866 chromosome, complete genome",SM 866,Complete genome,1,5086181,0,5086181,5086181
+45,Staphylococcus epidermidis,2576847969,"Staphylococcus epidermidis strain AR4072 chromosome, complete genome",AR4072,Complete genome,1,2742070,0,2742070,2742070
+46,Pseudomonas fluorescens,3413227150,"Pseudomonas fluorescens strain MIQDN-R3, whole genome shotgun sequencing project",MIQDN-R3,Complete genome,1,7119102,0,7119102,7119102
+47,Propionibacterium freudenreichii,2303707941,"Propionibacterium freudenreichii strain CIRM-BIA 141, whole genome shotgun sequencing project",CIRM-BIA 141,Complete genome,1,2746770,0,2746770,2746770
+48,Paenibacillus larvae,3418035203,"Paenibacillus larvae strain DSM 25430 flaA_KO, whole genome shotgun sequencing project",DSM 25430 flaA_KO,Complete genome,1,4672437,0,4672437,4672437
+49,Lactobacillus plantarum,3423428712,"Lactiplantibacillus plantarum strain ATCC 14917, whole genome shotgun sequencing project",ATCC 14917,Complete genome,1,3356384,0,3356384,3356384
+50,Shigella sonnei,3005764717,"Shigella sonnei strain 201809330 chromosome, complete genome",201809330,Complete genome,1,4916714,0,4916714,4916714
+51,Aeromonas hydrophila,3044634867,"Aeromonas hydrophila strain 3 chromosome, complete genome",3,Complete genome,1,5293136,0,5293136,5293136
+52,Yersinia enterocolitica,2993768038,"Yersinia enterocolitica strain Y40 chromosome, complete genome",Y40,Complete genome,1,4990006,0,4990006,4990006
+53,Thermus thermophilus,2102422892,"Thermus thermophilus strain TMY chromosome, complete genome",TMY,Complete genome,1,2151326,0,2151326,2151326
+54,Rhodococcus equi,2524272527,"Rhodococcus (subgen. Prescottella) equi strain WH99 chromosome, complete genome",WH99,Complete genome,1,5290529,0,5290529,5290529
+55,Rhizobium etli,528826861,"Rhizobium etli bv. mimosae str. Mim1, complete sequence",,Complete genome,1,4284494,0,4284494,4284494
+56,Pseudomonas syringae,3007974850,"Pseudomonas syringae pv. actinidiae strain FX219 chromosome, complete genome",FX219,Complete genome,1,6605063,0,6605063,6605063
+57,Proteus mirabilis,3111355664,"Proteus mirabilis strain PR01307, whole genome shotgun sequencing project",PR01307,Complete genome,1,4278169,0,4278169,4278169
+58,Flavobacterium psychrophilum,3386802286,"Flavobacterium psychrophilum strain PSFP-6 chromosome, whole genome shotgun sequence",PSFP-6,Complete genome,1,3135513,0,3135513,3135513
+59,Clostridium tetani,2867630718,"Clostridium tetani strain KHSU-092500-153 chromosome, complete genome",KHSU-092500-153,Complete genome,1,2864907,0,2864907,2864907
+60,Campylobacter jejuni,2304580380,"Campylobacter jejuni strain CJ510CC45 chromosome, complete genome",CJ510CC45,Complete genome,1,1943896,0,1943896,1943896
+61,Burkholderia cepacia,2240395616,"Burkholderia cepacia strain 2017Y70952565VI chromosome 2, complete sequence",2017Y70952565VI,Complete genome,1,4997612,0,4997612,4997612
+62,Enterobacter cloacae,2035962858,"Enterobacter cloacae strain CZ862 chromosome, complete genome",CZ862,Complete genome,1,5419017,0,5419017,5419017
+63,Corynebacterium vitaeruminis,736645218,"Corynebacterium vitaeruminis Ga6A13, whole genome shotgun sequencing project",,Complete genome,1,2931780,0,2931780,2931780
+64,Burkholderia pseudomallei,3402519415,"Burkholderia pseudomallei isolate NK1065, whole genome shotgun sequencing project",,Complete genome,1,4263701,0,4263701,4263701
+65,Streptomyces griseofuscus,1533969834,"Streptomyces griseofuscus strain 199, whole genome shotgun sequencing project",199,No sequence available,0,0,0,0,0
+66,Streptococcus suis,3058417627,"Streptococcus suis strain SS2401 chromosome, whole genome shotgun sequence",SS2401,Complete genome,1,2405320,0,2405320,2405320
+67,Gordonia malaquae,2715068896,Gordonia malaquae strain A448 chromosome,A448,Complete genome,1,4523976,100,4523976,4523976
+68,Yersinia pestis,1520150090,"Yersinia pestis strain FDAARGOS_601 chromosome, complete genome",FDAARGOS_601,Complete genome,1,4708493,0,4708493,4708493
+69,Serratia marcescens,3111484322,"Serratia marcescens strain APO28, whole genome shotgun sequencing project",APO28,Complete genome,1,5483021,0,5483021,5483021
+70,Pseudomonas putida,2866034643,"Pseudomonas putida strain KT2440 PP_1378 PP_1755PP_0944 pre-ALE 3 chromosome, complete genome",KT2440 PP_1378 PP_1755PP_0944 pre-ALE 3,Complete genome,1,6180425,0,6180425,6180425
+71,Pectobacterium carotovorum,2321312619,"Pectobacterium carotovorum strain HG-49 chromosome, complete genome",HG-49,Complete genome,1,5003614,0,5003614,5003614
+72,Lactobacillus paracasei,3007965220,"Lacticaseibacillus paracasei strain M8 chromosome, complete genome",M8,Complete genome,1,3258331,0,3258331,3258331
+73,Achromobacter xylosoxidans,2612449420,"Achromobacter xylosoxidans strain H1_3_1 chromosome, complete genome",H1_3_1,Complete genome,1,7071873,0,7071873,7071873
+74,Vibrio alginolyticus,3423684359,"Vibrio alginolyticus strain PV1.1, whole genome shotgun sequencing project",PV1.1,Complete genome,1,3495496,0,3495496,3495496
+75,Streptomyces sanglieri,2790379333,"Streptomyces sanglieri strain PU_15B, whole genome shotgun sequencing project",PU_15B,No sequence available,0,0,0,0,0
+76,Streptomyces coelicolor,3373406793,"Streptomyces coelicolor strain M22 chromosome, complete genome",M22,Complete genome,1,8668266,0,8668266,8668266
+77,Dickeya solani,2593716204,"Dickeya solani strain CFBP5647 chromosome, complete genome",CFBP5647,Complete genome,1,5248586,0,5248586,5248586
+78,Xylella fastidiosa,1212030609,"Xylella fastidiosa strain Hib4 chromosome, complete genome",Hib4,Complete genome,1,2813297,12,2813297,2813297
+79,Streptomyces mirabilis,2351646446,"Streptomyces mirabilis strain NBC_01741, whole genome shotgun sequencing project",NBC_01741,No sequence available,0,0,0,0,0
+80,Streptococcus pyogenes,2783966112,"Streptococcus pyogenes strain 9606/11 chromosome, complete genome",9606/11,Complete genome,1,2067793,0,2067793,2067793
+81,Pantoea agglomerans,2668454821,"Pantoea agglomerans strain CFBP8774 chromosome, complete genome",CFBP8774,Complete genome,1,4331596,0,4331596,4331596
+82,Mycobacterium avium,3314751644,"Mycobacterium avium subsp. hominissuis strain SmOp6 chromosome, complete genome",SmOp6,Complete genome,1,5509335,0,5509335,5509335
+83,Mannheimia haemolytica,2529611512,"Mannheimia haemolytica strain 192036 chromosome, complete genome",192036,Complete genome,1,2828637,0,2828637,2828637
+84,Leuconostoc mesenteroides,1189725240,"Leuconostoc mesenteroides subsp. mesenteroides strain BD1710 chromosome, complete genome",BD1710,Complete genome,1,2124039,0,2124039,2124039
+85,Bacillus anthracis,755165391,"Bacillus anthracis strain 2002013094 chromosome, complete genome",2002013094,Complete genome,1,5321900,0,5321900,5321900
+86,Streptomyces platensis,3376294714,"Streptomyces platensis strain W-0I-i1, whole genome shotgun sequencing project",W-0I-i1,No sequence available,0,0,0,0,0
+87,Sinorhizobium meliloti,3340990077,"Ensifer meliloti strain MSC1_014 chromosome, whole genome shotgun sequence",MSC1_014,Complete genome,1,5278923,0,5278923,5278923
+88,Mycobacterium tuberculosis,2259126277,"Mycobacterium tuberculosis strain IMR_378, whole genome shotgun sequencing project",IMR_378,Complete genome,1,4439067,0,4439067,4439067
+89,Mycobacterium phlei,1003466887,"Mycolicibacterium phlei strain CCUG 21000, complete genome",CCUG 21000,Complete genome,1,5349645,0,5349645,5349645
+90,Corynebacterium xerosis,3403625797,"Corynebacterium xerosis strain DSM 20743, whole genome shotgun sequencing project",DSM 20743,No sequence available,0,0,0,0,0
+91,Xanthomonas oryzae,3107004773,"Xanthomonas oryzae pv. oryzicola strain BAI119 chromosome, whole genome shotgun sequence",BAI119,Complete genome,1,5093124,0,5093124,5093124
+92,Streptomyces avermitilis,1152364433,"Streptomyces avermitilis strain MJM 7007 contig79, whole genome shotgun sequence",MJM 7007 contig79,Contig,1,456745,0,456745,456745
+93,Rhodococcus hoagii,3416714260,"Rhodococcus (subgen. Prescottella) equi isolate PAM 2792, whole genome shotgun sequencing project",,No sequence available,0,0,0,0,0
+94,Rhodobacter capsulatus,3055658235,"Rhodobacter capsulatus strain SP18 chromosome, complete genome",SP18,Complete genome,1,3946088,0,3946088,3946088
+95,Helicobacter pylori,1964530165,"Helicobacter pylori strain LIM-010 chromosome, complete genome",LIM-010,Complete genome,1,1745797,0,1745797,1745797
+96,Enterococcus faecium,3422729594,"Enterococcus faecium strain VRE_04 chromosome, whole genome shotgun sequence",VRE_04,Complete genome,1,2929963,0,2929963,2929963
+97,Candidatus Pelagibacter ubique,2314065191,"Candidatus Pelagibacter ubique HIMB140 HIMB140_HIMB140_contig1_C, whole genome shotgun sequence",,Contig,1,1437930,0,1437930,1437930
+98,Xanthomonas campestris,3021238298,"Xanthomonas campestris pv. incanae strain XUMN chromosome, complete genome",XUMN,Complete genome,1,5189114,0,5189114,5189114
+99,Oenococcus oeni,2260736961,"Oenococcus oeni strain SD-2a chromosome, complete genome",SD-2a,Complete genome,1,1989703,0,1989703,1989703
+100,Mycobacteruim smegmatis,NC_008596,pinned reference genome,,Complete genome,1,6988209,0,6988209,6988209
+101,Leuconostoc pseudomesenteroides,3181953357,"Leuconostoc pseudomesenteroides strain HF-IBB-469 isolate LPHFIBB469 chromosome 1, complete sequence",HF-IBB-469 isolate LPHFIBB469,Complete genome,1,2260537,0,2260537,2260537
+102,Brevibacillus laterosporus,1482665955,"Brevibacillus laterosporus strain E7593-50 chromosome, complete genome",E7593-50,Complete genome,1,5577844,0,5577844,5577844
+103,Vibrio vulnificus,2883922912,"Vibrio vulnificus strain 7356 chromosome, complete genome",7356,Complete genome,1,5193938,0,5193938,5193938
+104,Vibrio harveyi,2295957714,"Vibrio harveyi strain 1 chromosome 2, complete sequence",1,Complete genome,1,3866818,0,3866818,3866818
+105,Streptomyces azureus,NZ_JBMVCF000000000,WGS contigs merged,,Contig,86,8945423,1214,228249,840739
+106,Shigella boydii,1605362559,"Shigella boydii strain ATCC 49812 chromosome, complete genome",ATCC 49812,Complete genome,1,5106737,0,5106737,5106737
+107,Salmonella typhimurium,2809899788,"Salmonella enterica subsp. enterica serovar Typhimurium strain STMC125 chromosome, complete genome",STMC125,Complete genome,1,5192560,0,5192560,5192560
+108,Ruegeria pomeroyi,2056606246,"Ruegeria pomeroyi strain DSS-3-B chromosome, complete genome",DSS-3-B,Complete genome,1,4131101,0,4131101,4131101
+109,Prochlorococcus marinus,33239452,"Prochlorococcus marinus subsp. marinus str. CCMP1375, complete sequence",,Complete genome,1,1751080,0,1751080,1751080
+110,Pectobacterium atrosepticum,3376078272,"Pectobacterium atrosepticum strain LMG 2387 chromosome, whole genome shotgun sequence",LMG 2387,Complete genome,1,5034998,0,5034998,5034998
+111,Lactobacillus gasseri,1199524701,"Lactobacillus gasseri strain 4M13 chromosome, complete genome",4M13,Complete genome,1,2129370,1675,2129370,2129370
+112,Lactobacillus fermentum,1196102574,"Limosilactobacillus fermentum strain FTDC 8312 chromosome, complete genome",FTDC 8312,Complete genome,1,2239921,0,2239921,2239921
+113,Edwardsiella tarda,2788597829,"Edwardsiella tarda strain GT168 chromosome, complete genome",GT168,Complete genome,1,3774560,0,3774560,3774560
+114,Edwardsiella ictaluri,2913573678,"Edwardsiella ictaluri strain HCF-1 chromosome, complete genome",HCF-1,Complete genome,1,3853872,0,3853872,3853872
+115,Burkholderia thailandensis,3045905379,"Burkholderia thailandensis strain 250524 chromosome I, whole genome shotgun sequence",250524,Complete genome,1,3991691,207713,3991691,3991691
+116,Brochothrix thermosphacta,1248200806,"Brochothrix thermosphacta strain BI chromosome, complete genome",BI,Complete genome,1,2647794,0,2647794,2647794
+117,Acinetobacter johnsonii,3362755205,"Acinetobacter johnsonii strain CC chromosome, whole genome shotgun sequence",CC,Complete genome,1,3809748,0,3809748,3809748

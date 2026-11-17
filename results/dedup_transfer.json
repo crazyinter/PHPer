@@ -1,0 +1,30 @@
+[
+  {
+    "direction": "cherry -> deephost",
+    "seed": 123,
+    "n_candidate_hosts": 87,
+    "n_source_phages": 1297,
+    "n_target_phages": 2190,
+    "top1_all_target": 0.1547945205479452,
+    "top1_dedup_cos_lt_0.999": 0.11354166666666667,
+    "n_retained_cos_lt_0.999": 960,
+    "top1_dedup_cos_lt_0.99": 0.09838274932614555,
+    "n_retained_cos_lt_0.99": 742,
+    "top1_dedup_cos_lt_0.95": 0.07590759075907591,
+    "n_retained_cos_lt_0.95": 303
+  },
+  {
+    "direction": "deephost -> cherry",
+    "seed": 123,
+    "n_candidate_hosts": 87,
+    "n_source_phages": 2190,
+    "n_target_phages": 1297,
+    "top1_all_target": 0.9105628373168851,
+    "top1_dedup_cos_lt_0.999": 0.6222222222222222,
+    "n_retained_cos_lt_0.999": 90,
+    "top1_dedup_cos_lt_0.99": 0.5833333333333334,
+    "n_retained_cos_lt_0.99": 72,
+    "top1_dedup_cos_lt_0.95": 0.19230769230769232,
+    "n_retained_cos_lt_0.95": 26
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "model": "BMKMPHI (CNN+BiMamba2)",
+    "parameters": 3066520,
+    "latency_ms_per_batch": 4.132
+  },
+  {
+    "model": "CNN-only",
+    "parameters": 2764928,
+    "latency_ms_per_batch": 0.522
+  },
+  {
+    "model": "PhageCGRNet CNN",
+    "parameters": 67424846,
+    "latency_ms_per_batch": 6.354
+  }
+]

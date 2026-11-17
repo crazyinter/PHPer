@@ -1,0 +1,30 @@
+{
+  "n_test_phages": 188,
+  "bootstrap_resamples": 2000,
+  "temperature_used": 0.1459,
+  "temperature_source": "multi-seed validation-fit mean, fixed before test",
+  "calibrated_softmax": {
+    "auroc_point": 0.9108,
+    "auroc_95ci": [
+      0.8806,
+      0.9366
+    ],
+    "fpr95_point": 0.0,
+    "fpr95_95ci": [
+      0.0,
+      0.0
+    ]
+  },
+  "distance_score": {
+    "auroc_point": 0.9353,
+    "auroc_95ci": [
+      0.9087,
+      0.957
+    ],
+    "fpr95_point": 0.0,
+    "fpr95_95ci": [
+      0.0,
+      0.0
+    ]
+  }
+}

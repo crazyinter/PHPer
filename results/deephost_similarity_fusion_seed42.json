@@ -1,0 +1,20 @@
+{
+  "dataset": "deephost",
+  "seed": 42,
+  "split_type": "similarity",
+  "variant": "fusion",
+  "N": 2845,
+  "hosts": 108,
+  "split": [
+    2276,
+    285,
+    284
+  ],
+  "test_top1": 0.6091549396514893,
+  "test_top5": 0.8028168678283691,
+  "test_mrr": 0.6961551308631897,
+  "macro_precision": 0.37042468732626394,
+  "macro_recall": 0.3719431362288505,
+  "macro_f1": 0.35480921062204696,
+  "seconds": 259.0
+}

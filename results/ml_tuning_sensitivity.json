@@ -1,0 +1,498 @@
+[
+  {
+    "dataset": "cherry",
+    "split": "random",
+    "feature": "FCGR",
+    "classifier": "Logistic regression",
+    "selected_params": {
+      "C": 0.1
+    },
+    "default_top1": 0.8514,
+    "tuned_top1": 0.8571,
+    "delta_top1": 0.0057,
+    "tuned_top5": 0.9257,
+    "tuned_mrr": 0.8896,
+    "tuned_macro_f1": 0.474
+  },
+  {
+    "dataset": "cherry",
+    "split": "random",
+    "feature": "FCGR",
+    "classifier": "Random forest",
+    "selected_params": {
+      "n_estimators": 100,
+      "max_depth": null
+    },
+    "default_top1": 0.7886,
+    "tuned_top1": 0.7714,
+    "delta_top1": -0.0171,
+    "tuned_top5": 0.8971,
+    "tuned_mrr": 0.8249,
+    "tuned_macro_f1": 0.3781
+  },
+  {
+    "dataset": "cherry",
+    "split": "random",
+    "feature": "FCGR",
+    "classifier": "K-nearest neighbors",
+    "selected_params": {
+      "n_neighbors": 3
+    },
+    "default_top1": 0.6686,
+    "tuned_top1": 0.76,
+    "delta_top1": 0.0914,
+    "tuned_top5": 0.8571,
+    "tuned_mrr": 0.809,
+    "tuned_macro_f1": 0.3946
+  },
+  {
+    "dataset": "cherry",
+    "split": "random",
+    "feature": "FCGR",
+    "classifier": "RBF support vector machine",
+    "selected_params": {
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "default_top1": 0.6857,
+    "tuned_top1": 0.6686,
+    "delta_top1": -0.0171,
+    "tuned_top5": 0.8229,
+    "tuned_mrr": 0.7371,
+    "tuned_macro_f1": 0.1862
+  },
+  {
+    "dataset": "cherry",
+    "split": "random",
+    "feature": "Protein",
+    "classifier": "Logistic regression",
+    "selected_params": {
+      "C": 1.0
+    },
+    "default_top1": 0.84,
+    "tuned_top1": 0.84,
+    "delta_top1": 0.0,
+    "tuned_top5": 0.9486,
+    "tuned_mrr": 0.8874,
+    "tuned_macro_f1": 0.4482
+  },
+  {
+    "dataset": "cherry",
+    "split": "random",
+    "feature": "Protein",
+    "classifier": "Random forest",
+    "selected_params": {
+      "n_estimators": 100,
+      "max_depth": null
+    },
+    "default_top1": 0.8286,
+    "tuned_top1": 0.8171,
+    "delta_top1": -0.0114,
+    "tuned_top5": 0.9257,
+    "tuned_mrr": 0.8645,
+    "tuned_macro_f1": 0.4276
+  },
+  {
+    "dataset": "cherry",
+    "split": "random",
+    "feature": "Protein",
+    "classifier": "K-nearest neighbors",
+    "selected_params": {
+      "n_neighbors": 3
+    },
+    "default_top1": 0.7029,
+    "tuned_top1": 0.7829,
+    "delta_top1": 0.08,
+    "tuned_top5": 0.8914,
+    "tuned_mrr": 0.8342,
+    "tuned_macro_f1": 0.3929
+  },
+  {
+    "dataset": "cherry",
+    "split": "random",
+    "feature": "Protein",
+    "classifier": "RBF support vector machine",
+    "selected_params": {
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "default_top1": 0.6971,
+    "tuned_top1": 0.7029,
+    "delta_top1": 0.0057,
+    "tuned_top5": 0.8514,
+    "tuned_mrr": 0.7721,
+    "tuned_macro_f1": 0.2431
+  },
+  {
+    "dataset": "cherry",
+    "split": "similarity",
+    "feature": "FCGR",
+    "classifier": "Logistic regression",
+    "selected_params": {
+      "C": 1.0
+    },
+    "default_top1": 0.5938,
+    "tuned_top1": 0.5938,
+    "delta_top1": 0.0,
+    "tuned_top5": 0.8125,
+    "tuned_mrr": 0.6907,
+    "tuned_macro_f1": 0.296
+  },
+  {
+    "dataset": "cherry",
+    "split": "similarity",
+    "feature": "FCGR",
+    "classifier": "Random forest",
+    "selected_params": {
+      "n_estimators": 300,
+      "max_depth": null
+    },
+    "default_top1": 0.4875,
+    "tuned_top1": 0.4875,
+    "delta_top1": 0.0,
+    "tuned_top5": 0.7562,
+    "tuned_mrr": 0.6128,
+    "tuned_macro_f1": 0.2119
+  },
+  {
+    "dataset": "cherry",
+    "split": "similarity",
+    "feature": "FCGR",
+    "classifier": "K-nearest neighbors",
+    "selected_params": {
+      "n_neighbors": 3
+    },
+    "default_top1": 0.4375,
+    "tuned_top1": 0.4688,
+    "delta_top1": 0.0312,
+    "tuned_top5": 0.6375,
+    "tuned_mrr": 0.5465,
+    "tuned_macro_f1": 0.2068
+  },
+  {
+    "dataset": "cherry",
+    "split": "similarity",
+    "feature": "FCGR",
+    "classifier": "RBF support vector machine",
+    "selected_params": {
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "default_top1": 0.4813,
+    "tuned_top1": 0.4938,
+    "delta_top1": 0.0125,
+    "tuned_top5": 0.7063,
+    "tuned_mrr": 0.5865,
+    "tuned_macro_f1": 0.1581
+  },
+  {
+    "dataset": "cherry",
+    "split": "similarity",
+    "feature": "Protein",
+    "classifier": "Logistic regression",
+    "selected_params": {
+      "C": 10.0
+    },
+    "default_top1": 0.6188,
+    "tuned_top1": 0.6312,
+    "delta_top1": 0.0125,
+    "tuned_top5": 0.8375,
+    "tuned_mrr": 0.73,
+    "tuned_macro_f1": 0.3046
+  },
+  {
+    "dataset": "cherry",
+    "split": "similarity",
+    "feature": "Protein",
+    "classifier": "Random forest",
+    "selected_params": {
+      "n_estimators": 300,
+      "max_depth": 20
+    },
+    "default_top1": 0.5813,
+    "tuned_top1": 0.5875,
+    "delta_top1": 0.0062,
+    "tuned_top5": 0.8375,
+    "tuned_mrr": 0.6953,
+    "tuned_macro_f1": 0.3072
+  },
+  {
+    "dataset": "cherry",
+    "split": "similarity",
+    "feature": "Protein",
+    "classifier": "K-nearest neighbors",
+    "selected_params": {
+      "n_neighbors": 3
+    },
+    "default_top1": 0.5,
+    "tuned_top1": 0.55,
+    "delta_top1": 0.05,
+    "tuned_top5": 0.6875,
+    "tuned_mrr": 0.619,
+    "tuned_macro_f1": 0.2433
+  },
+  {
+    "dataset": "cherry",
+    "split": "similarity",
+    "feature": "Protein",
+    "classifier": "RBF support vector machine",
+    "selected_params": {
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "default_top1": 0.5125,
+    "tuned_top1": 0.5062,
+    "delta_top1": -0.0062,
+    "tuned_top5": 0.7312,
+    "tuned_mrr": 0.6118,
+    "tuned_macro_f1": 0.1569
+  },
+  {
+    "dataset": "deephost",
+    "split": "random",
+    "feature": "FCGR",
+    "classifier": "Logistic regression",
+    "selected_params": {
+      "C": 0.1
+    },
+    "default_top1": 0.7958,
+    "tuned_top1": 0.7993,
+    "delta_top1": 0.0035,
+    "tuned_top5": 0.9296,
+    "tuned_mrr": 0.8568,
+    "tuned_macro_f1": 0.5563
+  },
+  {
+    "dataset": "deephost",
+    "split": "random",
+    "feature": "FCGR",
+    "classifier": "Random forest",
+    "selected_params": {
+      "n_estimators": 300,
+      "max_depth": 20
+    },
+    "default_top1": 0.7746,
+    "tuned_top1": 0.7746,
+    "delta_top1": 0.0,
+    "tuned_top5": 0.8873,
+    "tuned_mrr": 0.8309,
+    "tuned_macro_f1": 0.5244
+  },
+  {
+    "dataset": "deephost",
+    "split": "random",
+    "feature": "FCGR",
+    "classifier": "K-nearest neighbors",
+    "selected_params": {
+      "n_neighbors": 3
+    },
+    "default_top1": 0.669,
+    "tuned_top1": 0.7254,
+    "delta_top1": 0.0563,
+    "tuned_top5": 0.831,
+    "tuned_mrr": 0.7776,
+    "tuned_macro_f1": 0.4313
+  },
+  {
+    "dataset": "deephost",
+    "split": "random",
+    "feature": "FCGR",
+    "classifier": "RBF support vector machine",
+    "selected_params": {
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "default_top1": 0.7641,
+    "tuned_top1": 0.7641,
+    "delta_top1": 0.0,
+    "tuned_top5": 0.8908,
+    "tuned_mrr": 0.8204,
+    "tuned_macro_f1": 0.4566
+  },
+  {
+    "dataset": "deephost",
+    "split": "random",
+    "feature": "Protein",
+    "classifier": "Logistic regression",
+    "selected_params": {
+      "C": 10.0
+    },
+    "default_top1": 0.8028,
+    "tuned_top1": 0.8134,
+    "delta_top1": 0.0106,
+    "tuned_top5": 0.919,
+    "tuned_mrr": 0.8607,
+    "tuned_macro_f1": 0.5611
+  },
+  {
+    "dataset": "deephost",
+    "split": "random",
+    "feature": "Protein",
+    "classifier": "Random forest",
+    "selected_params": {
+      "n_estimators": 300,
+      "max_depth": null
+    },
+    "default_top1": 0.8169,
+    "tuned_top1": 0.8169,
+    "delta_top1": 0.0,
+    "tuned_top5": 0.9296,
+    "tuned_mrr": 0.8672,
+    "tuned_macro_f1": 0.5838
+  },
+  {
+    "dataset": "deephost",
+    "split": "random",
+    "feature": "Protein",
+    "classifier": "K-nearest neighbors",
+    "selected_params": {
+      "n_neighbors": 3
+    },
+    "default_top1": 0.6796,
+    "tuned_top1": 0.7711,
+    "delta_top1": 0.0915,
+    "tuned_top5": 0.8556,
+    "tuned_mrr": 0.8131,
+    "tuned_macro_f1": 0.5292
+  },
+  {
+    "dataset": "deephost",
+    "split": "random",
+    "feature": "Protein",
+    "classifier": "RBF support vector machine",
+    "selected_params": {
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "default_top1": 0.7465,
+    "tuned_top1": 0.7641,
+    "delta_top1": 0.0176,
+    "tuned_top5": 0.919,
+    "tuned_mrr": 0.8355,
+    "tuned_macro_f1": 0.4605
+  },
+  {
+    "dataset": "deephost",
+    "split": "similarity",
+    "feature": "FCGR",
+    "classifier": "Logistic regression",
+    "selected_params": {
+      "C": 1.0
+    },
+    "default_top1": 0.6312,
+    "tuned_top1": 0.6312,
+    "delta_top1": 0.0,
+    "tuned_top5": 0.7979,
+    "tuned_mrr": 0.7069,
+    "tuned_macro_f1": 0.4043
+  },
+  {
+    "dataset": "deephost",
+    "split": "similarity",
+    "feature": "FCGR",
+    "classifier": "Random forest",
+    "selected_params": {
+      "n_estimators": 300,
+      "max_depth": null
+    },
+    "default_top1": 0.5177,
+    "tuned_top1": 0.5177,
+    "delta_top1": 0.0,
+    "tuned_top5": 0.7305,
+    "tuned_mrr": 0.6216,
+    "tuned_macro_f1": 0.2578
+  },
+  {
+    "dataset": "deephost",
+    "split": "similarity",
+    "feature": "FCGR",
+    "classifier": "K-nearest neighbors",
+    "selected_params": {
+      "n_neighbors": 3
+    },
+    "default_top1": 0.4362,
+    "tuned_top1": 0.5355,
+    "delta_top1": 0.0993,
+    "tuned_top5": 0.6383,
+    "tuned_mrr": 0.5913,
+    "tuned_macro_f1": 0.2845
+  },
+  {
+    "dataset": "deephost",
+    "split": "similarity",
+    "feature": "FCGR",
+    "classifier": "RBF support vector machine",
+    "selected_params": {
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "default_top1": 0.5213,
+    "tuned_top1": 0.5284,
+    "delta_top1": 0.0071,
+    "tuned_top5": 0.7092,
+    "tuned_mrr": 0.6152,
+    "tuned_macro_f1": 0.2233
+  },
+  {
+    "dataset": "deephost",
+    "split": "similarity",
+    "feature": "Protein",
+    "classifier": "Logistic regression",
+    "selected_params": {
+      "C": 10.0
+    },
+    "default_top1": 0.6241,
+    "tuned_top1": 0.6312,
+    "delta_top1": 0.0071,
+    "tuned_top5": 0.8262,
+    "tuned_mrr": 0.7157,
+    "tuned_macro_f1": 0.3764
+  },
+  {
+    "dataset": "deephost",
+    "split": "similarity",
+    "feature": "Protein",
+    "classifier": "Random forest",
+    "selected_params": {
+      "n_estimators": 300,
+      "max_depth": 20
+    },
+    "default_top1": 0.5957,
+    "tuned_top1": 0.6064,
+    "delta_top1": 0.0106,
+    "tuned_top5": 0.7872,
+    "tuned_mrr": 0.6949,
+    "tuned_macro_f1": 0.3757
+  },
+  {
+    "dataset": "deephost",
+    "split": "similarity",
+    "feature": "Protein",
+    "classifier": "K-nearest neighbors",
+    "selected_params": {
+      "n_neighbors": 3
+    },
+    "default_top1": 0.4894,
+    "tuned_top1": 0.5532,
+    "delta_top1": 0.0638,
+    "tuned_top5": 0.6773,
+    "tuned_mrr": 0.6177,
+    "tuned_macro_f1": 0.2882
+  },
+  {
+    "dataset": "deephost",
+    "split": "similarity",
+    "feature": "Protein",
+    "classifier": "RBF support vector machine",
+    "selected_params": {
+      "C": 10.0,
+      "gamma": "scale"
+    },
+    "default_top1": 0.5638,
+    "tuned_top1": 0.5816,
+    "delta_top1": 0.0177,
+    "tuned_top5": 0.7482,
+    "tuned_mrr": 0.6591,
+    "tuned_macro_f1": 0.2788
+  }
+]

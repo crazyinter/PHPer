@@ -1,0 +1,22 @@
+{
+  "dataset": "cherry",
+  "seed": 2024,
+  "split_type": "similarity",
+  "encoder": "phagecgrnet",
+  "representation": "cgr3d",
+  "loss": "ce",
+  "N": 1875,
+  "hosts": 206,
+  "split": [
+    1500,
+    188,
+    187
+  ],
+  "test_top1": 0.3689839541912079,
+  "test_top5": 0.5828877091407776,
+  "test_mrr": 0.4608456790447235,
+  "macro_precision": 0.1712834640107367,
+  "macro_recall": 0.1807305194805195,
+  "macro_f1": 0.1680558144672977,
+  "seconds": 41.0
+}

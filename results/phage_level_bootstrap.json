@@ -1,0 +1,3330 @@
+[
+  {
+    "dataset": "cherry",
+    "split": "random",
+    "n_test": 188,
+    "n_classes_in_test": 65,
+    "top1": 0.7340425531914894,
+    "top1_ci": [
+      0.6702127659574468,
+      0.7978723404255319
+    ],
+    "top5": 0.8617021276595744,
+    "top5_ci": [
+      0.8085106382978723,
+      0.9095744680851063
+    ],
+    "mrr": 0.790131672554637,
+    "mrr_ci": [
+      0.7388882596845208,
+      0.840625964652243
+    ],
+    "bootstrap": "2000 resamples of test phages, percentile intervals",
+    "per_class": {
+      "Acinetobacter baumannii": {
+        "support": 4,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.8,
+        "precision_ci": [
+          0.4,
+          1.0
+        ]
+      },
+      "Aeromonas salmonicida": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Alteromonas macleodii": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Bacillus megaterium": {
+        "support": 4,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Bacillus mycoides": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Bacillus pumilus": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Bacillus subtilis": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Bacillus thuringiensis": {
+        "support": 4,
+        "recall": 0.75,
+        "recall_ci": [
+          0.25,
+          1.0
+        ],
+        "precision": 0.75,
+        "precision_ci": [
+          0.25,
+          1.0
+        ]
+      },
+      "Burkholderia ambifaria": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Campylobacter jejuni": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Candidatus Liberibacter asiaticus": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Candidatus Pelagibacter ubique": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Caulobacter vibrioides": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Cellulophaga baltica": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Citrobacter freundii": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Clostridium perfringens": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Clostridium tetani": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Croceibacter atlanticus": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Cronobacter sakazakii": {
+        "support": 3,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Cutibacterium acnes": {
+        "support": 7,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Delftia acidovorans": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Dickeya solani": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Enterococcus faecalis": {
+        "support": 3,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.16666666666666666,
+          0.8333333333333334
+        ]
+      },
+      "Erwinia amylovora": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Escherichia coli": {
+        "support": 18,
+        "recall": 0.9444444444444444,
+        "recall_ci": [
+          0.8333333333333334,
+          1.0
+        ],
+        "precision": 0.6538461538461539,
+        "precision_ci": [
+          0.46153846153846156,
+          0.8461538461538461
+        ]
+      },
+      "Gordonia malaquae": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Gordonia rubripertincta": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Gordonia terrae": {
+        "support": 3,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.75,
+        "precision_ci": [
+          0.25,
+          1.0
+        ]
+      },
+      "Helicobacter pylori": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Klebsiella pneumoniae": {
+        "support": 2,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Lactobacillus delbrueckii": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Lactobacillus paracasei": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Lactococcus garvieae": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Lactococcus lactis": {
+        "support": 7,
+        "recall": 0.8571428571428571,
+        "recall_ci": [
+          0.5714285714285714,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Listeria monocytogenes": {
+        "support": 4,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Microbacterium oxydans": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Mycolicibacterium smegmatis": {
+        "support": 33,
+        "recall": 0.9393939393939394,
+        "recall_ci": [
+          0.8484848484848485,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Mycoplasma pulmonis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Paenibacillus larvae": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Pseudoalteromonas atlantica": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Pseudomonas aeruginosa": {
+        "support": 13,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.8125,
+        "precision_ci": [
+          0.625,
+          1.0
+        ]
+      },
+      "Pseudomonas fluorescens": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Pseudomonas putida": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Pseudomonas syringae": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Ralstonia solanacearum": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Rhizobium etli": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Rhizobium leguminosarum": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Rhodobacter capsulatus": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Rhodovulum sp. P5": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Ruegeria pomeroyi": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Salmonella enterica": {
+        "support": 12,
+        "recall": 0.5833333333333334,
+        "recall_ci": [
+          0.3333333333333333,
+          0.8333333333333334
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Shigella flexneri": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Staphylococcus aureus": {
+        "support": 7,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.7,
+        "precision_ci": [
+          0.4,
+          1.0
+        ]
+      },
+      "Staphylococcus hominis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Streptococcus mitis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Streptococcus parauberis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Streptococcus pneumoniae": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptococcus thermophilus": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptomyces lividans": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Sulfolobus islandicus": {
+        "support": 4,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Synechococcus sp. WH 8102": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Synechococcus sp. WH 8109": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Vibrio cholerae": {
+        "support": 6,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Vibrio natriegens": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Vibrio parahaemolyticus": {
+        "support": 3,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.3333333333333333,
+        "precision_ci": [
+          0.0,
+          0.6666666666666666
+        ]
+      }
+    }
+  },
+  {
+    "dataset": "cherry",
+    "split": "similarity",
+    "n_test": 187,
+    "n_classes_in_test": 80,
+    "top1": 0.48663101604278075,
+    "top1_ci": [
+      0.41711229946524064,
+      0.5614973262032086
+    ],
+    "top5": 0.6470588235294118,
+    "top5_ci": [
+      0.5775401069518716,
+      0.7165775401069518
+    ],
+    "mrr": 0.5685487213942327,
+    "mrr_ci": [
+      0.5056697828723037,
+      0.6311505285128891
+    ],
+    "bootstrap": "2000 resamples of test phages, percentile intervals",
+    "per_class": {
+      "Achromobacter xylosoxidans": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Acinetobacter baumannii": {
+        "support": 3,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Aeromonas hydrophila": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Aeromonas salmonicida": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Aggregatibacter actinomycetemcomitans": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Bacillus alcalophilus": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Bacillus cereus": {
+        "support": 3,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.6666666666666666,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Bacillus halmapalus": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Bacillus megaterium": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Bacillus pumilus": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Bacillus subtilis": {
+        "support": 2,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Bacillus thuringiensis": {
+        "support": 3,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.6666666666666666,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Burkholderia ambifaria": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Burkholderia cenocepacia": {
+        "support": 4,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.6666666666666666,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Burkholderia cepacia": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Burkholderia pyrrocinia": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Candidatus Pelagibacter ubique": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Caulobacter vibrioides": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Cellulophaga baltica": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Citrobacter freundii": {
+        "support": 3,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Clavibacter michiganensis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Clostridioides difficile": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Clostridium botulinum": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Clostridium tetani": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Croceibacter atlanticus": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Cronobacter sakazakii": {
+        "support": 4,
+        "recall": 0.25,
+        "recall_ci": [
+          0.0,
+          0.75
+        ],
+        "precision": 0.14285714285714285,
+        "precision_ci": [
+          0.0,
+          0.42857142857142855
+        ]
+      },
+      "Cutibacterium acnes": {
+        "support": 5,
+        "recall": 0.8,
+        "recall_ci": [
+          0.4,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Edwardsiella ictaluri": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Enterococcus faecalis": {
+        "support": 2,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Erwinia amylovora": {
+        "support": 3,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.4,
+        "precision_ci": [
+          0.0,
+          0.8
+        ]
+      },
+      "Escherichia coli": {
+        "support": 20,
+        "recall": 0.55,
+        "recall_ci": [
+          0.35,
+          0.75
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.31704545454545463,
+          0.6818181818181818
+        ]
+      },
+      "Glaesserella parasuis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Gordonia alkanivorans": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Gordonia malaquae": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Gordonia rubripertincta": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Gordonia terrae": {
+        "support": 7,
+        "recall": 0.5714285714285714,
+        "recall_ci": [
+          0.14285714285714285,
+          0.8571428571428571
+        ],
+        "precision": 0.4,
+        "precision_ci": [
+          0.1,
+          0.7
+        ]
+      },
+      "Helicobacter pylori": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Klebsiella oxytoca": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Klebsiella pneumoniae": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Lactobacillus delbrueckii": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Lactobacillus fermentum": {
+        "support": 3,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Lactobacillus gasseri": {
+        "support": 2,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Lactobacillus jensenii": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Lactobacillus plantarum": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Lactococcus garvieae": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Lactococcus lactis": {
+        "support": 3,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.42857142857142855,
+        "precision_ci": [
+          0.14285714285714285,
+          0.8571428571428571
+        ]
+      },
+      "Leuconostoc mesenteroides": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Mannheimia haemolytica": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Mycolicibacterium smegmatis": {
+        "support": 12,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.8571428571428571,
+        "precision_ci": [
+          0.6428571428571429,
+          1.0
+        ]
+      },
+      "Paenibacillus larvae": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Pantoea agglomerans": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Pectobacterium carotovorum": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Prochlorococcus marinus": {
+        "support": 8,
+        "recall": 0.75,
+        "recall_ci": [
+          0.375,
+          1.0
+        ],
+        "precision": 0.6666666666666666,
+        "precision_ci": [
+          0.3333333333333333,
+          0.8888888888888888
+        ]
+      },
+      "Providencia stuartii": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Pseudomonas aeruginosa": {
+        "support": 9,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.3333333333333333,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.25,
+          0.75
+        ]
+      },
+      "Pseudomonas syringae": {
+        "support": 3,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Ralstonia solanacearum": {
+        "support": 3,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.75,
+        "precision_ci": [
+          0.25,
+          1.0
+        ]
+      },
+      "Rhodobacter capsulatus": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Rhodococcus hoagii": {
+        "support": 3,
+        "recall": 0.3333333333333333,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Ruegeria pomeroyi": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Salmonella enterica": {
+        "support": 8,
+        "recall": 0.375,
+        "recall_ci": [
+          0.0,
+          0.75
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Shigella boydii": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Shigella flexneri": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Staphylococcus aureus": {
+        "support": 3,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Staphylococcus epidermidis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Streptococcus mitis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Streptococcus pneumoniae": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.25,
+        "precision_ci": [
+          0.0,
+          0.75
+        ]
+      },
+      "Streptococcus thermophilus": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptomyces griseus": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptomyces lividans": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Streptomyces venezuelae": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Synechococcus sp. CB0101": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Synechococcus sp. WH 8102": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Synechococcus sp. WH 8109": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Trichormus variabilis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Tsukamurella paurometabola": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Vibrio parahaemolyticus": {
+        "support": 4,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Xanthomonas citri": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Xylella fastidiosa": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Yersinia enterocolitica": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  {
+    "dataset": "deephost",
+    "split": "random",
+    "n_test": 285,
+    "n_classes_in_test": 65,
+    "top1": 0.6280701754385964,
+    "top1_ci": [
+      0.5719298245614035,
+      0.6807017543859649
+    ],
+    "top5": 0.8842105263157894,
+    "top5_ci": [
+      0.8456140350877193,
+      0.9192982456140351
+    ],
+    "mrr": 0.7524633134086307,
+    "mrr_ci": [
+      0.710961179880753,
+      0.7899027109819289
+    ],
+    "bootstrap": "2000 resamples of test phages, percentile intervals",
+    "per_class": {
+      "Acinetobacter baumannii": {
+        "support": 5,
+        "recall": 0.8,
+        "recall_ci": [
+          0.4,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Bacillus anthracis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Bacillus cereus": {
+        "support": 4,
+        "recall": 0.75,
+        "recall_ci": [
+          0.25,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.16666666666666666,
+          0.8333333333333334
+        ]
+      },
+      "Bacillus pumilus": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Bacillus subtilis": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Bacillus thuringiensis": {
+        "support": 5,
+        "recall": 0.2,
+        "recall_ci": [
+          0.0,
+          0.6
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Brevibacillus laterosporus": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Burkholderia cenocepacia": {
+        "support": 3,
+        "recall": 0.3333333333333333,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Burkholderia pseudomallei": {
+        "support": 4,
+        "recall": 0.75,
+        "recall_ci": [
+          0.25,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Campylobacter jejuni": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Citrobacter freundii": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Clostridium difficile": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Clostridium perfringens": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Cronobacter sakazakii": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Edwardsiella ictaluri": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Enterobacter cloacae": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Enterococcus faecalis": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Enterococcus faecium": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Erwinia amylovora": {
+        "support": 4,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.8,
+        "precision_ci": [
+          0.4,
+          1.0
+        ]
+      },
+      "Escherichia coli": {
+        "support": 33,
+        "recall": 0.8181818181818182,
+        "recall_ci": [
+          0.6666666666666666,
+          0.9393939393939394
+        ],
+        "precision": 0.7297297297297297,
+        "precision_ci": [
+          0.5945945945945946,
+          0.8648648648648649
+        ]
+      },
+      "Gordonia malaquae": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Gordonia terrae": {
+        "support": 10,
+        "recall": 0.7,
+        "recall_ci": [
+          0.4,
+          1.0
+        ],
+        "precision": 0.7777777777777778,
+        "precision_ci": [
+          0.4444444444444444,
+          1.0
+        ]
+      },
+      "Klebsiella pneumoniae": {
+        "support": 10,
+        "recall": 0.7,
+        "recall_ci": [
+          0.4,
+          0.9
+        ],
+        "precision": 0.7777777777777778,
+        "precision_ci": [
+          0.4444444444444444,
+          1.0
+        ]
+      },
+      "Lactobacillus delbrueckii": {
+        "support": 3,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Lactobacillus fermentum": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Lactobacillus paracasei": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Lactobacillus plantarum": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Lactococcus lactis": {
+        "support": 17,
+        "recall": 0.9411764705882353,
+        "recall_ci": [
+          0.8235294117647058,
+          1.0
+        ],
+        "precision": 0.9411764705882353,
+        "precision_ci": [
+          0.8235294117647058,
+          1.0
+        ]
+      },
+      "Leuconostoc mesenteroides": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Listeria monocytogenes": {
+        "support": 3,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Mannheimia haemolytica": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Microbacterium foliorum": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Mycobacterium avium": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Mycobacterium phlei": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Mycobacterium smegmatis": {
+        "support": 46,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Paenibacillus larvae": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Pectobacterium carotovorum": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Prochlorococcus marinus": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Propionibacterium acnes": {
+        "support": 10,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Proteus mirabilis": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Pseudomonas aeruginosa": {
+        "support": 16,
+        "recall": 0.9375,
+        "recall_ci": [
+          0.8125,
+          1.0
+        ],
+        "precision": 0.7894736842105263,
+        "precision_ci": [
+          0.5789473684210527,
+          0.9473684210526315
+        ]
+      },
+      "Pseudomonas fluorescens": {
+        "support": 3,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Pseudomonas putida": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Pseudomonas syringae": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Ralstonia solanacearum": {
+        "support": 3,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Rhodobacter capsulatus": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Rhodococcus equi": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Rhodococcus erythropolis": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Salmonella enterica": {
+        "support": 25,
+        "recall": 0.76,
+        "recall_ci": [
+          0.5990000000000001,
+          0.92
+        ],
+        "precision": 0.95,
+        "precision_ci": [
+          0.85,
+          1.0
+        ]
+      },
+      "Serratia marcescens": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Shigella flexneri": {
+        "support": 3,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Sinorhizobium meliloti": {
+        "support": 2,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Staphylococcus aureus": {
+        "support": 10,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.9090909090909091,
+        "precision_ci": [
+          0.7272727272727273,
+          1.0
+        ]
+      },
+      "Staphylococcus epidermidis": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Stenotrophomonas maltophilia": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptococcus pneumoniae": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptococcus pyogenes": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptococcus suis": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptococcus thermophilus": {
+        "support": 3,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptomyces coelicolor": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Streptomyces griseus": {
+        "support": 2,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Thermus thermophilus": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Vibrio cholerae": {
+        "support": 6,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.75,
+        "precision_ci": [
+          0.375,
+          1.0
+        ]
+      },
+      "Vibrio harveyi": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Yersinia enterocolitica": {
+        "support": 3,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  {
+    "dataset": "deephost",
+    "split": "similarity",
+    "n_test": 284,
+    "n_classes_in_test": 79,
+    "top1": 0.4823943661971831,
+    "top1_ci": [
+      0.4225352112676056,
+      0.5422535211267606
+    ],
+    "top5": 0.7183098591549296,
+    "top5_ci": [
+      0.6619718309859155,
+      0.7711267605633803
+    ],
+    "mrr": 0.5914127415124626,
+    "mrr_ci": [
+      0.5425326338889502,
+      0.64197144039482
+    ],
+    "bootstrap": "2000 resamples of test phages, percentile intervals",
+    "per_class": {
+      "Achromobacter xylosoxidans": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Acinetobacter baumannii": {
+        "support": 4,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.8,
+        "precision_ci": [
+          0.4,
+          1.0
+        ]
+      },
+      "Acinetobacter johnsonii": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Aeromonas hydrophila": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Aeromonas salmonicida": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Bacillus anthracis": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Bacillus cereus": {
+        "support": 3,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Bacillus megaterium": {
+        "support": 3,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Bacillus pumilus": {
+        "support": 2,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Bacillus subtilis": {
+        "support": 3,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.3333333333333333,
+        "precision_ci": [
+          0.0,
+          0.6666666666666666
+        ]
+      },
+      "Bacillus thuringiensis": {
+        "support": 4,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.6666666666666666,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Brochothrix thermosphacta": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Burkholderia cepacia": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Burkholderia pseudomallei": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Candidatus Pelagibacter ubique": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Caulobacter crescentus": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Cellulophaga baltica": {
+        "support": 5,
+        "recall": 0.2,
+        "recall_ci": [
+          0.0,
+          0.6
+        ],
+        "precision": 0.3333333333333333,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Citrobacter freundii": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Cronobacter sakazakii": {
+        "support": 4,
+        "recall": 0.25,
+        "recall_ci": [
+          0.0,
+          0.75
+        ],
+        "precision": 0.3333333333333333,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Dickeya solani": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Edwardsiella ictaluri": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Edwardsiella tarda": {
+        "support": 2,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Enterobacter cloacae": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Enterococcus faecalis": {
+        "support": 6,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.6,
+        "precision_ci": [
+          0.3,
+          0.9
+        ]
+      },
+      "Erwinia amylovora": {
+        "support": 4,
+        "recall": 0.25,
+        "recall_ci": [
+          0.0,
+          0.75
+        ],
+        "precision": 0.25,
+        "precision_ci": [
+          0.0,
+          0.75
+        ]
+      },
+      "Escherichia coli": {
+        "support": 33,
+        "recall": 0.8484848484848485,
+        "recall_ci": [
+          0.7272727272727273,
+          0.9696969696969697
+        ],
+        "precision": 0.4745762711864407,
+        "precision_ci": [
+          0.3559322033898305,
+          0.5932203389830508
+        ]
+      },
+      "Gordonia malaquae": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Gordonia terrae": {
+        "support": 10,
+        "recall": 0.8,
+        "recall_ci": [
+          0.5,
+          1.0
+        ],
+        "precision": 0.8,
+        "precision_ci": [
+          0.6,
+          1.0
+        ]
+      },
+      "Helicobacter pylori": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Klebsiella pneumoniae": {
+        "support": 15,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.4,
+          0.8666666666666667
+        ],
+        "precision": 0.7692307692307693,
+        "precision_ci": [
+          0.5384615384615384,
+          1.0
+        ]
+      },
+      "Lactobacillus delbrueckii": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Lactobacillus gasseri": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Lactobacillus paracasei": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Lactobacillus plantarum": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.3333333333333333,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Lactococcus lactis": {
+        "support": 15,
+        "recall": 0.8666666666666667,
+        "recall_ci": [
+          0.6666666666666666,
+          1.0
+        ],
+        "precision": 0.9285714285714286,
+        "precision_ci": [
+          0.7857142857142857,
+          1.0
+        ]
+      },
+      "Listeria monocytogenes": {
+        "support": 4,
+        "recall": 0.75,
+        "recall_ci": [
+          0.25,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Microbacterium foliorum": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Mycobacterium phlei": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Mycobacterium smegmatis": {
+        "support": 24,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Mycobacterium tuberculosis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Mycobacteruim smegmatis": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.041666666666666664,
+        "precision_ci": [
+          0.0,
+          0.125
+        ]
+      },
+      "Paenibacillus larvae": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Pantoea agglomerans": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Pectobacterium atrosepticum": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Pectobacterium carotovorum": {
+        "support": 4,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Prochlorococcus marinus": {
+        "support": 4,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Propionibacterium acnes": {
+        "support": 6,
+        "recall": 0.8333333333333334,
+        "recall_ci": [
+          0.5,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Propionibacterium freudenreichii": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Proteus mirabilis": {
+        "support": 3,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Pseudomonas aeruginosa": {
+        "support": 11,
+        "recall": 0.8181818181818182,
+        "recall_ci": [
+          0.5454545454545454,
+          1.0
+        ],
+        "precision": 0.5,
+        "precision_ci": [
+          0.2777777777777778,
+          0.7222222222222222
+        ]
+      },
+      "Pseudomonas fluorescens": {
+        "support": 3,
+        "recall": 0.6666666666666666,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.4,
+        "precision_ci": [
+          0.0,
+          0.8
+        ]
+      },
+      "Pseudomonas putida": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Pseudomonas syringae": {
+        "support": 5,
+        "recall": 0.2,
+        "recall_ci": [
+          0.0,
+          0.6
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Ralstonia solanacearum": {
+        "support": 5,
+        "recall": 0.8,
+        "recall_ci": [
+          0.4,
+          1.0
+        ],
+        "precision": 0.3333333333333333,
+        "precision_ci": [
+          0.08333333333333333,
+          0.5833333333333334
+        ]
+      },
+      "Rhizobium etli": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Rhodococcus equi": {
+        "support": 2,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.3333333333333333,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Rhodococcus erythropolis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Salmonella enterica": {
+        "support": 15,
+        "recall": 0.4,
+        "recall_ci": [
+          0.13333333333333333,
+          0.6666666666666666
+        ],
+        "precision": 0.75,
+        "precision_ci": [
+          0.375,
+          1.0
+        ]
+      },
+      "Serratia marcescens": {
+        "support": 2,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 0.3333333333333333,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Shigella boydii": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Shigella flexneri": {
+        "support": 5,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Staphylococcus aureus": {
+        "support": 7,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.7,
+        "precision_ci": [
+          0.4,
+          1.0
+        ]
+      },
+      "Staphylococcus epidermidis": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Stenotrophomonas maltophilia": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Streptococcus pneumoniae": {
+        "support": 4,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptococcus pyogenes": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Streptococcus suis": {
+        "support": 1,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptococcus thermophilus": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptomyces coelicolor": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Streptomyces griseus": {
+        "support": 2,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Streptomyces scabiei": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Streptomyces venezuelae": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Streptomyces viridochromogenes": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Thermus thermophilus": {
+        "support": 2,
+        "recall": 0.5,
+        "recall_ci": [
+          0.0,
+          1.0
+        ],
+        "precision": 1.0,
+        "precision_ci": [
+          1.0,
+          1.0
+        ]
+      },
+      "Vibrio alginolyticus": {
+        "support": 2,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Vibrio cholerae": {
+        "support": 2,
+        "recall": 1.0,
+        "recall_ci": [
+          1.0,
+          1.0
+        ],
+        "precision": 0.3333333333333333,
+        "precision_ci": [
+          0.0,
+          0.6666666666666666
+        ]
+      },
+      "Vibrio parahaemolyticus": {
+        "support": 4,
+        "recall": 0.25,
+        "recall_ci": [
+          0.0,
+          0.75
+        ],
+        "precision": 0.3333333333333333,
+        "precision_ci": [
+          0.0,
+          1.0
+        ]
+      },
+      "Xylella fastidiosa": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "Yersinia enterocolitica": {
+        "support": 1,
+        "recall": 0.0,
+        "recall_ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 0.0,
+        "precision_ci": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  }
+]

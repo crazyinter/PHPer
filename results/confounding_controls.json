@@ -1,0 +1,188 @@
+[
+  {
+    "dataset": "cherry",
+    "codon_gc_corr_mean": 0.7338465971808293,
+    "codon_gc_corr_max": 0.9434348777839422,
+    "simple_correlations": {
+      "gc_loglength": -0.029008177453120027,
+      "gc_genecount": -0.1485087790624818
+    },
+    "random_split": {
+      "simple_GC_length_gene": {
+        "mean": 0.39148936170212767,
+        "values": [
+          0.3457,
+          0.3777,
+          0.4521,
+          0.4043,
+          0.3777
+        ]
+      },
+      "codon_only": {
+        "mean": 0.7797872340425532,
+        "values": [
+          0.7819,
+          0.734,
+          0.7819,
+          0.7872,
+          0.8138
+        ]
+      },
+      "codon_residualized_on_GC": {
+        "mean": 0.7861702127659574,
+        "values": [
+          0.7819,
+          0.734,
+          0.7872,
+          0.8085,
+          0.8191
+        ]
+      },
+      "simple_plus_codon": {
+        "mean": 0.7840425531914893,
+        "values": [
+          0.7872,
+          0.734,
+          0.7926,
+          0.7872,
+          0.8191
+        ]
+      },
+      "full_96": {
+        "mean": 0.7925531914893617,
+        "values": [
+          0.7819,
+          0.734,
+          0.8138,
+          0.8138,
+          0.8191
+        ]
+      }
+    },
+    "similarity_seed123": {
+      "simple_GC_length_gene": {
+        "mean": 0.21390374331550802,
+        "values": [
+          0.2139
+        ]
+      },
+      "codon_only": {
+        "mean": 0.5401069518716578,
+        "values": [
+          0.5401
+        ]
+      },
+      "codon_residualized_on_GC": {
+        "mean": 0.5454545454545454,
+        "values": [
+          0.5455
+        ]
+      },
+      "simple_plus_codon": {
+        "mean": 0.5454545454545454,
+        "values": [
+          0.5455
+        ]
+      },
+      "full_96": {
+        "mean": 0.5294117647058824,
+        "values": [
+          0.5294
+        ]
+      }
+    }
+  },
+  {
+    "dataset": "deephost",
+    "codon_gc_corr_mean": 0.739149148011214,
+    "codon_gc_corr_max": 0.9515656804209638,
+    "simple_correlations": {
+      "gc_loglength": -0.03159540084453481,
+      "gc_genecount": -0.14398756314201777
+    },
+    "random_split": {
+      "simple_GC_length_gene": {
+        "mean": 0.3705263157894737,
+        "values": [
+          0.3789,
+          0.3684,
+          0.3895,
+          0.3684,
+          0.3474
+        ]
+      },
+      "codon_only": {
+        "mean": 0.8287719298245614,
+        "values": [
+          0.8035,
+          0.814,
+          0.8386,
+          0.8632,
+          0.8246
+        ]
+      },
+      "codon_residualized_on_GC": {
+        "mean": 0.8364912280701755,
+        "values": [
+          0.8246,
+          0.814,
+          0.8491,
+          0.8667,
+          0.8281
+        ]
+      },
+      "simple_plus_codon": {
+        "mean": 0.8329824561403509,
+        "values": [
+          0.807,
+          0.8211,
+          0.8386,
+          0.8737,
+          0.8246
+        ]
+      },
+      "full_96": {
+        "mean": 0.8231578947368421,
+        "values": [
+          0.8,
+          0.807,
+          0.8386,
+          0.8491,
+          0.8211
+        ]
+      }
+    },
+    "similarity_seed123": {
+      "simple_GC_length_gene": {
+        "mean": 0.2535211267605634,
+        "values": [
+          0.2535
+        ]
+      },
+      "codon_only": {
+        "mean": 0.6338028169014085,
+        "values": [
+          0.6338
+        ]
+      },
+      "codon_residualized_on_GC": {
+        "mean": 0.6302816901408451,
+        "values": [
+          0.6303
+        ]
+      },
+      "simple_plus_codon": {
+        "mean": 0.6373239436619719,
+        "values": [
+          0.6373
+        ]
+      },
+      "full_96": {
+        "mean": 0.6197183098591549,
+        "values": [
+          0.6197
+        ]
+      }
+    }
+  }
+]

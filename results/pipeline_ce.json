@@ -1,0 +1,43 @@
+{
+  "pipeline": "cross-entropy (softmax classification), a separately trained variant",
+  "applies_to": [
+    "train.py --loss ce (full CNN+BiMamba2 and CNN-only encoders)"
+  ],
+  "output_layer": "an explicit classification head Linear(512, n_candidate_hosts) added on top of the encoder",
+  "shared_encoder": false,
+  "loss": {
+    "name": "softmax cross-entropy (torch.nn.functional.cross_entropy)",
+    "distance": "none",
+    "margin": "none",
+    "formula": "mean over the batch of -log( exp(z_y) / sum_j exp(z_j) )",
+    "host_embeddings": "candidate host FCGRs are not consumed by the loss; only the phage label is used"
+  },
+  "inference": {
+    "rule": "argmax / softmax over the classification-head logits",
+    "order": "larger logit / probability is better",
+    "softmax": "produced directly over the candidate-host axis",
+    "temperature_scaling": "post-hoc rescaling of this softmax"
+  },
+  "bn_recalibration": "not performed; the training running statistics are used as-is",
+  "architecture": {
+    "input": "1 x 64 x 64 FCGR (k=6)",
+    "conv1": "Conv2d(1, 64, k=7, s=2) -> 64 x 29; BatchNorm; ReLU",
+    "conv2": "Conv2d(64, 128, k=7, s=2) -> 128 x 12; BatchNorm; ReLU",
+    "maxpool": "MaxPool2d(2) -> 128 x 6",
+    "mamba2": "single bidirectional block; d_state=128, d_conv=4, d_inner=256, 4 heads, chunk=64",
+    "sequence_head": "flatten 4,608 -> Linear(512); dropout 0",
+    "classification_head": "Linear(512, n_candidate_hosts)"
+  },
+  "training": {
+    "epochs": 120,
+    "batch_size": 32,
+    "optimizer": "Adam, lr=1e-3, betas=(0.9,0.999), weight_decay=0",
+    "lr_schedule": "none",
+    "grad_clip": "none",
+    "mixed_precision": "none, FP32",
+    "cudnn": "deterministic=True, benchmark=False",
+    "checkpoint": "best validation top-1 within fixed epoch budget",
+    "split_ratio": "8:1:1",
+    "seeds": [123, 2024, 42]
+  }
+}

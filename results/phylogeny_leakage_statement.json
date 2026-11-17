@@ -1,0 +1,16 @@
+{
+  "phylogeny_controls_post_hoc": {
+    "status": "post-hoc diagnostic analyses, not inputs to the deployed predictor",
+    "uses_real_labels": {
+      "genus_level_accuracy": "real genus labels (first word of the curated species name) define the target",
+      "genus_mean_residualization": "training samples are grouped by their real genus label to subtract group means",
+      "within_genus_analysis": "real genus labels partition samples into same-genus subsets"
+    },
+    "unsupervised_component": {
+      "tree_pc_residualization": "principal axes of host FCGR are learned without labels; the label is used only to index a phage's host"
+    },
+    "no_deployment_leakage": "the deployed BMKMPHI pipeline consumes only sequence-derived features (FCGR and pyrodigal protein coding features); genus labels, genus means and within-genus partitions are never available at prediction time and never enter the training inputs of the deployed model",
+    "purpose": "these analyses diagnose whether the codon/coding signal is explained by shared ancestry; they do not report a deployable accuracy",
+    "caveat": "residualized and within-genus numbers must be read as conditional, label-dependent diagnostics rather than generalization performance"
+  }
+}

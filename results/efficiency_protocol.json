@@ -1,0 +1,34 @@
+{
+  "protocol": {
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "cuda_version": "12.4",
+    "torch_version": "2.5.1",
+    "precision": "FP32 (no AMP)",
+    "batch_size": 32,
+    "warmup_iters": 10,
+    "timed_iters": 100,
+    "independent_repeats": 5,
+    "scope": "Forward pass only; excludes sequence loading, ORF prediction, FCGR construction and host-database I/O. GPU synchronized around each timing window."
+  },
+  "models": [
+    {
+      "model": "BMKMPHI (CNN+BiMamba2)",
+      "parameters": 3066520,
+      "latency_ms_mean": 2.522,
+      "latency_ms_sd": 0.017
+    },
+    {
+      "model": "CNN-only",
+      "parameters": 2764928,
+      "latency_ms_mean": 0.241,
+      "latency_ms_sd": 0.005
+    },
+    {
+      "model": "PhageCGRNet CNN",
+      "parameters": 67424846,
+      "latency_ms_mean": 2.679,
+      "latency_ms_sd": 0.005
+    }
+  ]
+}

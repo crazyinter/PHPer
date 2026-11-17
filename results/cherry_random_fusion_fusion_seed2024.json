@@ -1,0 +1,20 @@
+{
+  "dataset": "cherry",
+  "seed": 2024,
+  "split_type": "random",
+  "variant": "fusion",
+  "N": 1875,
+  "hosts": 206,
+  "split": [
+    1500,
+    187,
+    188
+  ],
+  "test_top1": 0.771276593208313,
+  "test_top5": 0.8457446694374084,
+  "test_mrr": 0.810274600982666,
+  "macro_precision": 0.5394915541974366,
+  "macro_recall": 0.5424953834044743,
+  "macro_f1": 0.5175897164471249,
+  "seconds": 171.4
+}

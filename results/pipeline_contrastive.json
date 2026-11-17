@@ -1,0 +1,46 @@
+{
+  "pipeline": "contrastive (distance-based), the primary reported model",
+  "applies_to": [
+    "train.py --loss contrastive (full CNN+BiMamba2 and CNN-only encoders)",
+    "train_fusion.py --variant fcgr | protein | fusion",
+    "train_deephost_fusion.py"
+  ],
+  "output_layer": "no classification head; the encoder emits a 512-d embedding for phages and hosts",
+  "shared_encoder": true,
+  "loss": {
+    "name": "matrix-form squared-contrastive (matrix_contrastive_loss)",
+    "distance": "Euclidean distance between phage and host embeddings",
+    "margin": 1.0,
+    "formula": "mean over the batch of [ positive distance^2 + (1-positive) * max(0, margin-distance)^2 ] / 2",
+    "host_embeddings": "all candidate host embeddings are used in the matrix every batch"
+  },
+  "inference": {
+    "rule": "torch.cdist between each test phage embedding and all candidate host embeddings",
+    "order": "smaller distance is better; ranking by ascending distance",
+    "softmax": "none; probabilities are not produced at this stage",
+    "temperature_scaling": "applied separately as a post-hoc step on converted scores, not part of this head"
+  },
+  "bn_recalibration": "3 training-only passes, momentum=None, running stats re-estimated before final eval",
+  "architecture": {
+    "input": "1 x 64 x 64 FCGR (k=6)",
+    "conv1": "Conv2d(1, 64, k=7, s=2) -> 64 x 29; BatchNorm; ReLU",
+    "conv2": "Conv2d(64, 128, k=7, s=2) -> 128 x 12; BatchNorm; ReLU",
+    "maxpool": "MaxPool2d(2) -> 128 x 6",
+    "mamba2": "single bidirectional block; d_state=128, d_conv=4, d_inner=256, 4 heads, chunk=64",
+    "sequence_head": "flatten 4,608 -> Linear(512); dropout 0",
+    "coding_mlp": "96 -> 256 -> 256 -> 512 (protein/fusion variants)",
+    "fusion": "(512 sequence + 128 coding) = 640 -> Linear(512) -> ReLU"
+  },
+  "training": {
+    "epochs": "120 (train.py); 100 (fusion)",
+    "batch_size": 32,
+    "optimizer": "Adam, lr=1e-3, betas=(0.9,0.999), weight_decay=0",
+    "lr_schedule": "none",
+    "grad_clip": "none",
+    "mixed_precision": "none, FP32",
+    "cudnn": "deterministic=True, benchmark=False",
+    "checkpoint": "best validation top-1 within fixed epoch budget",
+    "split_ratio": "8:1:1",
+    "seeds": [123, 2024, 42, 7, 99]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "setting": "true host withheld from candidate set",
+  "n_test": 188,
+  "calibrated_softmax": {
+    "auroc": 0.9109,
+    "fpr_at_95tpr": 0.0
+  },
+  "distance_score": {
+    "auroc": 0.9353,
+    "fpr_at_95tpr": 0.0
+  },
+  "coverage_accuracy": [
+    {
+      "threshold": 0.5,
+      "coverage": 0.6755,
+      "accuracy_when_accepted": 0.9449
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.5372,
+      "accuracy_when_accepted": 0.9703
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.2819,
+      "accuracy_when_accepted": 0.9811
+    }
+  ]
+}

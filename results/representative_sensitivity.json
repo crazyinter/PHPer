@@ -1,0 +1,183 @@
+{
+  "selection_protocol": "one RefSeq representative per species; chromosome-sized sequences preferred (>=200 kb); alternative is a different strain's RefSeq assembly",
+  "feature_level": [
+    {
+      "species": "Escherichia coli",
+      "class": 2,
+      "alt_id": "002_alt",
+      "primary_len": 5421422,
+      "alt_len": 4964964,
+      "alt_n_contig": 1,
+      "fcgr_cosine": 0.999065,
+      "protein_pearson": 0.999982
+    },
+    {
+      "species": "Pseudomonas aeruginosa",
+      "class": 4,
+      "alt_id": "004_alt",
+      "primary_len": 7169381,
+      "alt_len": 476816,
+      "alt_n_contig": 1,
+      "fcgr_cosine": 0.990389,
+      "protein_pearson": 0.996659
+    },
+    {
+      "species": "Salmonella enterica",
+      "class": 5,
+      "alt_id": "005_alt",
+      "primary_len": 4972233,
+      "alt_len": 4884314,
+      "alt_n_contig": 1,
+      "fcgr_cosine": 0.999896,
+      "protein_pearson": 0.999997
+    },
+    {
+      "species": "Bacillus cereus",
+      "class": 18,
+      "alt_id": "3414256426",
+      "primary_len": 5830992,
+      "alt_len": 949583,
+      "alt_n_contig": 1,
+      "fcgr_cosine": 0.969464,
+      "protein_pearson": 0.997673
+    },
+    {
+      "species": "Klebsiella pneumoniae",
+      "class": 9,
+      "alt_id": "009_alt",
+      "primary_len": 5521599,
+      "alt_len": 5372844,
+      "alt_n_contig": 1,
+      "fcgr_cosine": 0.999814,
+      "protein_pearson": 0.999997
+    },
+    {
+      "species": "Staphylococcus aureus",
+      "class": 7,
+      "alt_id": "3423687860",
+      "primary_len": 2964115,
+      "alt_len": 793550,
+      "alt_n_contig": 1,
+      "fcgr_cosine": 0.996897,
+      "protein_pearson": 0.998877
+    },
+    {
+      "species": "Gordonia terrae",
+      "class": 1,
+      "alt_id": "001_alt",
+      "primary_len": 5708950,
+      "alt_len": 205858,
+      "alt_n_contig": 1,
+      "fcgr_cosine": 0.994744,
+      "protein_pearson": 0.993095
+    }
+  ],
+  "random_split": {
+    "baseline_top1": 0.715789,
+    "per_species": {
+      "Escherichia coli": {
+        "prediction_flips": 13,
+        "n_test": 285,
+        "flip_rate": 0.045614,
+        "top1_after": 0.705263,
+        "delta_top1": -0.010526
+      },
+      "Pseudomonas aeruginosa": {
+        "prediction_flips": 0,
+        "n_test": 285,
+        "flip_rate": 0.0,
+        "top1_after": 0.715789,
+        "delta_top1": 0.0
+      },
+      "Salmonella enterica": {
+        "prediction_flips": 2,
+        "n_test": 285,
+        "flip_rate": 0.007018,
+        "top1_after": 0.719298,
+        "delta_top1": 0.003509
+      },
+      "Bacillus cereus": {
+        "prediction_flips": 5,
+        "n_test": 285,
+        "flip_rate": 0.017544,
+        "top1_after": 0.705263,
+        "delta_top1": -0.010526
+      },
+      "Klebsiella pneumoniae": {
+        "prediction_flips": 0,
+        "n_test": 285,
+        "flip_rate": 0.0,
+        "top1_after": 0.715789,
+        "delta_top1": 0.0
+      },
+      "Staphylococcus aureus": {
+        "prediction_flips": 2,
+        "n_test": 285,
+        "flip_rate": 0.007018,
+        "top1_after": 0.708772,
+        "delta_top1": -0.007018
+      },
+      "Gordonia terrae": {
+        "prediction_flips": 6,
+        "n_test": 285,
+        "flip_rate": 0.021053,
+        "top1_after": 0.701754,
+        "delta_top1": -0.014035
+      }
+    }
+  },
+  "similarity_split": {
+    "baseline_top1": 0.485915,
+    "per_species": {
+      "Escherichia coli": {
+        "prediction_flips": 29,
+        "n_test": 284,
+        "flip_rate": 0.102113,
+        "top1_after": 0.43662,
+        "delta_top1": -0.049296
+      },
+      "Pseudomonas aeruginosa": {
+        "prediction_flips": 7,
+        "n_test": 284,
+        "flip_rate": 0.024648,
+        "top1_after": 0.485915,
+        "delta_top1": 0.0
+      },
+      "Salmonella enterica": {
+        "prediction_flips": 0,
+        "n_test": 284,
+        "flip_rate": 0.0,
+        "top1_after": 0.485915,
+        "delta_top1": 0.0
+      },
+      "Bacillus cereus": {
+        "prediction_flips": 2,
+        "n_test": 284,
+        "flip_rate": 0.007042,
+        "top1_after": 0.478873,
+        "delta_top1": -0.007042
+      },
+      "Klebsiella pneumoniae": {
+        "prediction_flips": 0,
+        "n_test": 284,
+        "flip_rate": 0.0,
+        "top1_after": 0.485915,
+        "delta_top1": 0.0
+      },
+      "Staphylococcus aureus": {
+        "prediction_flips": 0,
+        "n_test": 284,
+        "flip_rate": 0.0,
+        "top1_after": 0.485915,
+        "delta_top1": 0.0
+      },
+      "Gordonia terrae": {
+        "prediction_flips": 4,
+        "n_test": 284,
+        "flip_rate": 0.014085,
+        "top1_after": 0.475352,
+        "delta_top1": -0.010563
+      }
+    }
+  }
+}

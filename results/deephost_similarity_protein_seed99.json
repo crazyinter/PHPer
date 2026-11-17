@@ -1,0 +1,20 @@
+{
+  "dataset": "deephost",
+  "seed": 99,
+  "split_type": "similarity",
+  "variant": "protein",
+  "N": 2845,
+  "hosts": 108,
+  "split": [
+    2276,
+    285,
+    284
+  ],
+  "test_top1": 0.6302816867828369,
+  "test_top5": 0.8521126508712769,
+  "test_mrr": 0.7251319289207458,
+  "macro_precision": 0.397886764898797,
+  "macro_recall": 0.4285875582750583,
+  "macro_f1": 0.3948316889655359,
+  "seconds": 24.6
+}

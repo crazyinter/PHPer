@@ -1,0 +1,262 @@
+[
+  {
+    "context": "DeepHost, random",
+    "contrast": "Protein vs FCGR",
+    "n_seeds": 5,
+    "diff_pp": 2.526,
+    "ci95_low": 0.642,
+    "ci95_high": 4.41,
+    "paired_t": 3.723,
+    "t_p": 0.02042,
+    "wilcoxon_W": 0.0,
+    "wilcoxon_p": 0.0625,
+    "cohen_d": 1.665,
+    "holm_adj_p": 0.1225,
+    "bh_adj_p": 0.0332,
+    "bootstrap_ci95": [
+      0.88,
+      3.96
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  },
+  {
+    "context": "DeepHost, random",
+    "contrast": "Fusion vs FCGR",
+    "n_seeds": 5,
+    "diff_pp": 3.088,
+    "ci95_low": 1.307,
+    "ci95_high": 4.868,
+    "paired_t": 4.815,
+    "t_p": 0.00855,
+    "wilcoxon_W": 0.0,
+    "wilcoxon_p": 0.0625,
+    "cohen_d": 2.153,
+    "holm_adj_p": 0.077,
+    "bh_adj_p": 0.02,
+    "bootstrap_ci95": [
+      2.68,
+      3.5
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  },
+  {
+    "context": "DeepHost, random",
+    "contrast": "Fusion vs Protein",
+    "n_seeds": 5,
+    "diff_pp": 0.561,
+    "ci95_low": -0.393,
+    "ci95_high": 1.516,
+    "paired_t": 1.633,
+    "t_p": 0.17781,
+    "wilcoxon_W": 2.5,
+    "wilcoxon_p": 0.3125,
+    "cohen_d": 0.73,
+    "holm_adj_p": 0.7112,
+    "bh_adj_p": 0.2312,
+    "bootstrap_ci95": [
+      0.26,
+      0.84
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  },
+  {
+    "context": "DeepHost, similarity",
+    "contrast": "Protein vs FCGR",
+    "n_seeds": 5,
+    "diff_pp": 9.225,
+    "ci95_low": 6.319,
+    "ci95_high": 12.132,
+    "paired_t": 8.812,
+    "t_p": 0.00092,
+    "wilcoxon_W": 0.0,
+    "wilcoxon_p": 0.0625,
+    "cohen_d": 3.941,
+    "holm_adj_p": 0.0092,
+    "bh_adj_p": 0.003,
+    "bootstrap_ci95": [
+      7.3,
+      10.98
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  },
+  {
+    "context": "DeepHost, similarity",
+    "contrast": "Fusion vs FCGR",
+    "n_seeds": 5,
+    "diff_pp": 8.662,
+    "ci95_low": 6.139,
+    "ci95_high": 11.185,
+    "paired_t": 9.532,
+    "t_p": 0.00068,
+    "wilcoxon_W": 0.0,
+    "wilcoxon_p": 0.0625,
+    "cohen_d": 4.263,
+    "holm_adj_p": 0.0082,
+    "bh_adj_p": 0.003,
+    "bootstrap_ci95": [
+      8.09,
+      9.19
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  },
+  {
+    "context": "DeepHost, similarity",
+    "contrast": "Fusion vs Protein",
+    "n_seeds": 5,
+    "diff_pp": -0.563,
+    "ci95_low": -2.217,
+    "ci95_high": 1.09,
+    "paired_t": -0.946,
+    "t_p": 0.39767,
+    "wilcoxon_W": 3.0,
+    "wilcoxon_p": 0.46521,
+    "cohen_d": -0.423,
+    "holm_adj_p": 1.0,
+    "bh_adj_p": 0.47,
+    "bootstrap_ci95": [
+      -1.21,
+      0.04
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  },
+  {
+    "context": "CHERRY, random",
+    "contrast": "Protein vs FCGR",
+    "n_seeds": 5,
+    "diff_pp": 3.83,
+    "ci95_low": 2.648,
+    "ci95_high": 5.011,
+    "paired_t": 9.0,
+    "t_p": 0.00084,
+    "wilcoxon_W": 0.0,
+    "wilcoxon_p": 0.0625,
+    "cohen_d": 4.025,
+    "holm_adj_p": 0.0092,
+    "bh_adj_p": 0.003,
+    "bootstrap_ci95": [
+      3.02,
+      4.59
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  },
+  {
+    "context": "CHERRY, random",
+    "contrast": "Fusion vs FCGR",
+    "n_seeds": 5,
+    "diff_pp": 4.149,
+    "ci95_low": 1.704,
+    "ci95_high": 6.594,
+    "paired_t": 4.712,
+    "t_p": 0.00922,
+    "wilcoxon_W": 0.0,
+    "wilcoxon_p": 0.0625,
+    "cohen_d": 2.107,
+    "holm_adj_p": 0.077,
+    "bh_adj_p": 0.02,
+    "bootstrap_ci95": [
+      3.12,
+      5.18
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  },
+  {
+    "context": "CHERRY, random",
+    "contrast": "Fusion vs Protein",
+    "n_seeds": 5,
+    "diff_pp": 0.319,
+    "ci95_low": -1.901,
+    "ci95_high": 2.539,
+    "paired_t": 0.399,
+    "t_p": 0.7102,
+    "wilcoxon_W": 5.5,
+    "wilcoxon_p": 0.8125,
+    "cohen_d": 0.178,
+    "holm_adj_p": 1.0,
+    "bh_adj_p": 0.7527,
+    "bootstrap_ci95": [
+      -1.77,
+      2.41
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  },
+  {
+    "context": "CHERRY, similarity",
+    "contrast": "Protein vs FCGR",
+    "n_seeds": 5,
+    "diff_pp": 10.16,
+    "ci95_low": 3.308,
+    "ci95_high": 17.013,
+    "paired_t": 4.117,
+    "t_p": 0.01465,
+    "wilcoxon_W": 0.0,
+    "wilcoxon_p": 0.0625,
+    "cohen_d": 1.841,
+    "holm_adj_p": 0.1026,
+    "bh_adj_p": 0.0272,
+    "bootstrap_ci95": [
+      5.21,
+      14.46
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  },
+  {
+    "context": "CHERRY, similarity",
+    "contrast": "Fusion vs FCGR",
+    "n_seeds": 5,
+    "diff_pp": 10.481,
+    "ci95_low": 2.193,
+    "ci95_high": 18.769,
+    "paired_t": 3.511,
+    "t_p": 0.02464,
+    "wilcoxon_W": 0.0,
+    "wilcoxon_p": 0.0625,
+    "cohen_d": 1.57,
+    "holm_adj_p": 0.1232,
+    "bh_adj_p": 0.0356,
+    "bootstrap_ci95": [
+      7.27,
+      12.76
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  },
+  {
+    "context": "CHERRY, similarity",
+    "contrast": "Fusion vs Protein",
+    "n_seeds": 5,
+    "diff_pp": 0.321,
+    "ci95_low": -2.318,
+    "ci95_high": 2.96,
+    "paired_t": 0.338,
+    "t_p": 0.75269,
+    "wilcoxon_W": 4.0,
+    "wilcoxon_p": 0.715,
+    "cohen_d": 0.151,
+    "holm_adj_p": 1.0,
+    "bh_adj_p": 0.7527,
+    "bootstrap_ci95": [
+      -0.99,
+      1.64
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  },
+  {
+    "context": "CHERRY, full model leakage",
+    "contrast": "Random split vs Similarity split",
+    "n_seeds": 5,
+    "diff_pp": 29.761,
+    "ci95_low": 23.025,
+    "ci95_high": 36.498,
+    "paired_t": 12.266,
+    "t_p": 0.00025,
+    "wilcoxon_W": 0.0,
+    "wilcoxon_p": 0.0625,
+    "cohen_d": 5.486,
+    "holm_adj_p": 0.0033,
+    "bh_adj_p": 0.003,
+    "bootstrap_ci95": [
+      27.07,
+      32.87
+    ],
+    "inference_note": "Seeds quantify training stability, not independent biological replicates; treat t/CI as descriptive."
+  }
+]

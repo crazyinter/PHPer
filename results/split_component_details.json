@@ -1,0 +1,85 @@
+[
+  {
+    "dataset": "cherry",
+    "threshold": 0.05,
+    "seed": 123,
+    "total_components": 1049,
+    "component_size": {
+      "largest": 38,
+      "singletons": 793,
+      "median": 1.0
+    },
+    "splits": {
+      "train": {
+        "samples": 1500,
+        "components": 674,
+        "classes_present": 168
+      },
+      "val": {
+        "samples": 188,
+        "components": 188,
+        "classes_present": 82
+      },
+      "test": {
+        "samples": 187,
+        "components": 187,
+        "classes_present": 80
+      }
+    },
+    "test_classes_absent_from_train": [
+      15,
+      18,
+      32,
+      34,
+      36,
+      52,
+      57,
+      75,
+      76,
+      90,
+      94,
+      95,
+      96,
+      99,
+      101,
+      131,
+      150,
+      168,
+      189,
+      190,
+      200
+    ]
+  },
+  {
+    "dataset": "deephost",
+    "threshold": 0.05,
+    "seed": 123,
+    "total_components": 1343,
+    "component_size": {
+      "largest": 52,
+      "singletons": 938,
+      "median": 1.0
+    },
+    "splits": {
+      "train": {
+        "samples": 2276,
+        "components": 774,
+        "classes_present": 106
+      },
+      "val": {
+        "samples": 285,
+        "components": 285,
+        "classes_present": 86
+      },
+      "test": {
+        "samples": 284,
+        "components": 284,
+        "classes_present": 79
+      }
+    },
+    "test_classes_absent_from_train": [
+      43,
+      89
+    ]
+  }
+]

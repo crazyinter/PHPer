@@ -1,0 +1,44 @@
+[
+  {
+    "comparison": "fusion vs fcgr",
+    "split": "random",
+    "diff_pp": 3.0877184867858842,
+    "t": 4.815140533505707,
+    "p": 0.008553222305592908
+  },
+  {
+    "comparison": "fusion vs protein",
+    "split": "random",
+    "diff_pp": 0.561403036117547,
+    "t": 1.6329902722459655,
+    "p": 0.1778084126933991
+  },
+  {
+    "comparison": "protein vs fcgr",
+    "split": "random",
+    "diff_pp": 2.526315450668337,
+    "t": 3.7230306633681525,
+    "p": 0.020420490282049494
+  },
+  {
+    "comparison": "fusion vs fcgr",
+    "split": "similarity",
+    "diff_pp": 8.66197109222412,
+    "t": 9.53231210904728,
+    "p": 0.0006763132372527104
+  },
+  {
+    "comparison": "fusion vs protein",
+    "split": "similarity",
+    "diff_pp": -0.5633795261383079,
+    "t": -0.9460975236839058,
+    "p": 0.3976705667662476
+  },
+  {
+    "comparison": "protein vs fcgr",
+    "split": "similarity",
+    "diff_pp": 9.225350618362427,
+    "t": 8.812009395699048,
+    "p": 0.0009150738031057349
+  }
+]

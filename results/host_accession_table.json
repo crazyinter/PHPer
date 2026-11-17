@@ -1,0 +1,828 @@
+[
+  {
+    "class_id": "0",
+    "species": "Mycobacterium smegmatis",
+    "accession": "NC_008596",
+    "length": 6988209,
+    "title": "pinned reference genome"
+  },
+  {
+    "class_id": "1",
+    "species": "Gordonia terrae",
+    "accession": "1397582435",
+    "length": 5708950,
+    "title": "Gordonia terrae strain NRRL B-16283 chromosome, complete genome"
+  },
+  {
+    "class_id": "2",
+    "species": "Escherichia coli",
+    "accession": "2873344971",
+    "length": 5421422,
+    "title": "Escherichia coli O121 strain GTVSS-020 chromosome, complete genome"
+  },
+  {
+    "class_id": "3",
+    "species": "Microbacterium foliorum",
+    "accession": "1447489561",
+    "length": 3568138,
+    "title": "Microbacterium foliorum strain NRRL B-24224 chromosome, complete genome"
+  },
+  {
+    "class_id": "4",
+    "species": "Pseudomonas aeruginosa",
+    "accession": "3406177412",
+    "length": 7169381,
+    "title": "Pseudomonas aeruginosa strain 511570-22 chromosome, complete genome"
+  },
+  {
+    "class_id": "5",
+    "species": "Salmonella enterica",
+    "accession": "2084197977",
+    "length": 4972233,
+    "title": "Salmonella enterica strain sg1722-1 chromosome, complete genome"
+  },
+  {
+    "class_id": "6",
+    "species": "Lactococcus lactis",
+    "accession": "2447854661",
+    "length": 2603291,
+    "title": "Lactococcus lactis strain LB7 chromosome, complete genome"
+  },
+  {
+    "class_id": "7",
+    "species": "Staphylococcus aureus",
+    "accession": "2222918967",
+    "length": 2964115,
+    "title": "Staphylococcus aureus strain PartE-Saureus-RM8376 chromosome, complete genome"
+  },
+  {
+    "class_id": "8",
+    "species": "Propionibacterium acnes",
+    "accession": "2514914426",
+    "length": 2560819,
+    "title": "Cutibacterium acnes strain W81 chromosome, complete genome"
+  },
+  {
+    "class_id": "9",
+    "species": "Klebsiella pneumoniae",
+    "accession": "3423655403",
+    "length": 5521599,
+    "title": "Klebsiella pneumoniae strain MRSN410359 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "10",
+    "species": "Streptomyces griseus",
+    "accession": "2861399239",
+    "length": 8537117,
+    "title": "Streptomyces griseus strain NBC_01018 chromosome, complete genome"
+  },
+  {
+    "class_id": "11",
+    "species": "Arthrobacter globiformis",
+    "accession": "3412612304",
+    "length": 4900752,
+    "title": "Arthrobacter globiformis strain MIQDR-18, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "12",
+    "species": "Vibrio cholerae",
+    "accession": "806464118",
+    "length": 4077462,
+    "title": "Vibrio cholerae strain 10432-62 chromosome, complete genome"
+  },
+  {
+    "class_id": "13",
+    "species": "Acinetobacter baumannii",
+    "accession": "3418127693",
+    "length": 4228449,
+    "title": "Acinetobacter baumannii strain 32104 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "14",
+    "species": "Listeria monocytogenes",
+    "accession": "3071602830",
+    "length": 3078398,
+    "title": "Listeria monocytogenes strain PNUSAL007562 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "15",
+    "species": "Gordonia rubripertincta",
+    "accession": "1832540450",
+    "length": 5699719,
+    "title": "Gordonia rubripertincta strain ATCC 14352, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "16",
+    "species": "Bacillus thuringiensis",
+    "accession": "238801508",
+    "length": 6231196,
+    "title": "Bacillus thuringiensis serovar huazhongensis BGSC 4BD1 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "17",
+    "species": "Enterococcus faecalis",
+    "accession": "3395522847",
+    "length": 3192962,
+    "title": "Enterococcus faecalis strain MS8005 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "18",
+    "species": "Bacillus cereus",
+    "accession": "2801553374",
+    "length": 5830992,
+    "title": "Bacillus cereus strain QKG-2024 chromosome, complete genome"
+  },
+  {
+    "class_id": "19",
+    "species": "Rhodococcus erythropolis",
+    "accession": "2181137649",
+    "length": 6509297,
+    "title": "Rhodococcus erythropolis strain D310-1 chromosome, complete genome"
+  },
+  {
+    "class_id": "20",
+    "species": "Streptomyces lividans",
+    "accession": "3372002525",
+    "length": 8316556,
+    "title": "Streptomyces lividans strain H_W2 chromosome"
+  },
+  {
+    "class_id": "21",
+    "species": "Cellulophaga baltica",
+    "accession": "751335006",
+    "length": 4635105,
+    "title": "Cellulophaga baltica 18 chromosome, complete genome"
+  },
+  {
+    "class_id": "22",
+    "species": "Erwinia amylovora",
+    "accession": "1997748099",
+    "length": 3807395,
+    "title": "Erwinia amylovora strain ATCC 15580 chromosome, complete genome"
+  },
+  {
+    "class_id": "23",
+    "species": "Ralstonia solanacearum",
+    "accession": "1531919446",
+    "length": 5068052,
+    "title": "Ralstonia solanacearum strain UA-1609 chromosome"
+  },
+  {
+    "class_id": "24",
+    "species": "Microbacterium paraoxydans",
+    "accession": "3111312340",
+    "length": 3580715,
+    "title": "Microbacterium paraoxydans strain M2A3_1c, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "25",
+    "species": "Clostridium difficile",
+    "accession": "3384642003",
+    "length": 4431866,
+    "title": "Clostridioides difficile isolate CD111 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "26",
+    "species": "Vibrio parahaemolyticus",
+    "accession": "2070558768",
+    "length": 3577848,
+    "title": "Vibrio parahaemolyticus strain Colony524 chromosome 1"
+  },
+  {
+    "class_id": "27",
+    "species": "Shigella flexneri",
+    "accession": "2205636574",
+    "length": 4659807,
+    "title": "Shigella flexneri strain STLEFF_38 chromosome, complete genome"
+  },
+  {
+    "class_id": "28",
+    "species": "Streptococcus thermophilus",
+    "accession": "3340667896",
+    "length": 2167365,
+    "title": "Streptococcus thermophilus strain Douc24 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "29",
+    "species": "Cronobacter sakazakii",
+    "accession": "817657568",
+    "length": 4511265,
+    "title": "Cronobacter sakazakii strain ATCC 29544 chromosome, complete genome"
+  },
+  {
+    "class_id": "30",
+    "species": "Bacillus megaterium",
+    "accession": "1441364184",
+    "length": 5449951,
+    "title": "Priestia megaterium strain SR7 chromosome, complete genome"
+  },
+  {
+    "class_id": "31",
+    "species": "Streptococcus pneumoniae",
+    "accession": "3397530430",
+    "length": 2215181,
+    "title": "Streptococcus pneumoniae isolate b509c1de-353a-11ee-8da2-fa163eea3084 chromosome 1, complete sequence"
+  },
+  {
+    "class_id": "32",
+    "species": "Clostridium perfringens",
+    "accession": "3004886033",
+    "length": 3532600,
+    "title": "Clostridium perfringens strain 2019-01-3502-1_1 chromosome, complete genome"
+  },
+  {
+    "class_id": "33",
+    "species": "Bacillus subtilis",
+    "accession": "3404231180",
+    "length": 4400684,
+    "title": "Bacillus subtilis strain NB379 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "34",
+    "species": "Burkholderia cenocepacia",
+    "accession": "1148532877",
+    "length": 7499459,
+    "title": "Burkholderia cenocepacia strain VC7848 chromosome, complete genome"
+  },
+  {
+    "class_id": "35",
+    "species": "Bacillus pumilus",
+    "accession": "3340389289",
+    "length": 3916322,
+    "title": "Bacillus pumilus strain 292_cr chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "36",
+    "species": "Streptomyces venezuelae",
+    "accession": "1752014777",
+    "length": 8942078,
+    "title": "Streptomyces venezuelae strain ATCC 14584 chromosome, complete genome"
+  },
+  {
+    "class_id": "37",
+    "species": "Aeromonas salmonicida",
+    "accession": "2281926866",
+    "length": 5099029,
+    "title": "Aeromonas salmonicida strain FN1 chromosome, complete genome"
+  },
+  {
+    "class_id": "38",
+    "species": "Lactobacillus delbrueckii",
+    "accession": "1119614029",
+    "length": 2263382,
+    "title": "Lactobacillus delbrueckii subsp. lactis strain KCCM 34717 chromosome, complete genome"
+  },
+  {
+    "class_id": "39",
+    "species": "Citrobacter freundii",
+    "accession": "2958452002",
+    "length": 5255733,
+    "title": "Citrobacter freundii strain M21 chromosome, complete genome"
+  },
+  {
+    "class_id": "40",
+    "species": "Caulobacter crescentus",
+    "accession": "1883402297",
+    "length": 4144051,
+    "title": "Caulobacter vibrioides strain CB13b1a chromosome, complete genome"
+  },
+  {
+    "class_id": "41",
+    "species": "Streptomyces xanthochromogenes",
+    "accession": "1907418518",
+    "length": 8711390,
+    "title": "Streptomyces xanthochromogenes strain JCM 4594, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "42",
+    "species": "Streptomyces viridochromogenes",
+    "accession": "NZ_MUML00000000",
+    "length": 7333324,
+    "title": "WGS contigs merged"
+  },
+  {
+    "class_id": "43",
+    "species": "Streptomyces scabiei",
+    "accession": "2026791884",
+    "length": 9982980,
+    "title": "Streptomyces scabiei strain LBUM 1480 chromosome"
+  },
+  {
+    "class_id": "44",
+    "species": "Stenotrophomonas maltophilia",
+    "accession": "1907029499",
+    "length": 5086181,
+    "title": "Stenotrophomonas maltophilia strain SM 866 chromosome, complete genome"
+  },
+  {
+    "class_id": "45",
+    "species": "Staphylococcus epidermidis",
+    "accession": "2576847969",
+    "length": 2742070,
+    "title": "Staphylococcus epidermidis strain AR4072 chromosome, complete genome"
+  },
+  {
+    "class_id": "46",
+    "species": "Pseudomonas fluorescens",
+    "accession": "3413227150",
+    "length": 7413149,
+    "title": "Pseudomonas fluorescens strain MIQDN-R3, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "47",
+    "species": "Propionibacterium freudenreichii",
+    "accession": "2303707941",
+    "length": 2561772,
+    "title": "Propionibacterium freudenreichii strain CIRM-BIA 141, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "48",
+    "species": "Paenibacillus larvae",
+    "accession": "3418035203",
+    "length": 4047223,
+    "title": "Paenibacillus larvae strain DSM 25430 flaA_KO, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "49",
+    "species": "Lactobacillus plantarum",
+    "accession": "3423428712",
+    "length": 3250380,
+    "title": "Lactiplantibacillus plantarum strain ATCC 14917, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "50",
+    "species": "Shigella sonnei",
+    "accession": "3005764717",
+    "length": 4916714,
+    "title": "Shigella sonnei strain 201809330 chromosome, complete genome"
+  },
+  {
+    "class_id": "51",
+    "species": "Aeromonas hydrophila",
+    "accession": "3044634867",
+    "length": 5293136,
+    "title": "Aeromonas hydrophila strain 3 chromosome, complete genome"
+  },
+  {
+    "class_id": "52",
+    "species": "Yersinia enterocolitica",
+    "accession": "2993768038",
+    "length": 4990006,
+    "title": "Yersinia enterocolitica strain Y40 chromosome, complete genome"
+  },
+  {
+    "class_id": "53",
+    "species": "Thermus thermophilus",
+    "accession": "2102422892",
+    "length": 2151326,
+    "title": "Thermus thermophilus strain TMY chromosome, complete genome"
+  },
+  {
+    "class_id": "54",
+    "species": "Rhodococcus equi",
+    "accession": "2524272527",
+    "length": 5290529,
+    "title": "Rhodococcus (subgen. Prescottella) equi strain WH99 chromosome, complete genome"
+  },
+  {
+    "class_id": "55",
+    "species": "Rhizobium etli",
+    "accession": "528826861",
+    "length": 4284494,
+    "title": "Rhizobium etli bv. mimosae str. Mim1, complete sequence"
+  },
+  {
+    "class_id": "56",
+    "species": "Pseudomonas syringae",
+    "accession": "3007974850",
+    "length": 6605063,
+    "title": "Pseudomonas syringae pv. actinidiae strain FX219 chromosome, complete genome"
+  },
+  {
+    "class_id": "57",
+    "species": "Proteus mirabilis",
+    "accession": "3111355664",
+    "length": 4223710,
+    "title": "Proteus mirabilis strain PR01307, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "58",
+    "species": "Flavobacterium psychrophilum",
+    "accession": "3386802286",
+    "length": 3135513,
+    "title": "Flavobacterium psychrophilum strain PSFP-6 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "59",
+    "species": "Clostridium tetani",
+    "accession": "2867630718",
+    "length": 2864907,
+    "title": "Clostridium tetani strain KHSU-092500-153 chromosome, complete genome"
+  },
+  {
+    "class_id": "60",
+    "species": "Campylobacter jejuni",
+    "accession": "2304580380",
+    "length": 1943896,
+    "title": "Campylobacter jejuni strain CJ510CC45 chromosome, complete genome"
+  },
+  {
+    "class_id": "61",
+    "species": "Burkholderia cepacia",
+    "accession": "2240395616",
+    "length": 4997612,
+    "title": "Burkholderia cepacia strain 2017Y70952565VI chromosome 2, complete sequence"
+  },
+  {
+    "class_id": "62",
+    "species": "Enterobacter cloacae",
+    "accession": "2035962858",
+    "length": 5419017,
+    "title": "Enterobacter cloacae strain CZ862 chromosome, complete genome"
+  },
+  {
+    "class_id": "63",
+    "species": "Corynebacterium vitaeruminis",
+    "accession": "736645218",
+    "length": 2907311,
+    "title": "Corynebacterium vitaeruminis Ga6A13, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "64",
+    "species": "Burkholderia pseudomallei",
+    "accession": "3402519415",
+    "length": 7262306,
+    "title": "Burkholderia pseudomallei isolate NK1065, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "65",
+    "species": "Streptomyces griseofuscus",
+    "accession": "1533969834",
+    "length": 8423965,
+    "title": "Streptomyces griseofuscus strain 199, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "66",
+    "species": "Streptococcus suis",
+    "accession": "3058417627",
+    "length": 2405320,
+    "title": "Streptococcus suis strain SS2401 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "67",
+    "species": "Gordonia malaquae",
+    "accession": "2715068896",
+    "length": 4523976,
+    "title": "Gordonia malaquae strain A448 chromosome"
+  },
+  {
+    "class_id": "68",
+    "species": "Yersinia pestis",
+    "accession": "1520150090",
+    "length": 4708493,
+    "title": "Yersinia pestis strain FDAARGOS_601 chromosome, complete genome"
+  },
+  {
+    "class_id": "69",
+    "species": "Serratia marcescens",
+    "accession": "3111484322",
+    "length": 5831353,
+    "title": "Serratia marcescens strain APO28, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "70",
+    "species": "Pseudomonas putida",
+    "accession": "2866034643",
+    "length": 6180425,
+    "title": "Pseudomonas putida strain KT2440 PP_1378 PP_1755PP_0944 pre-ALE 3 chromosome, complete genome"
+  },
+  {
+    "class_id": "71",
+    "species": "Pectobacterium carotovorum",
+    "accession": "2321312619",
+    "length": 5003614,
+    "title": "Pectobacterium carotovorum strain HG-49 chromosome, complete genome"
+  },
+  {
+    "class_id": "72",
+    "species": "Lactobacillus paracasei",
+    "accession": "3007965220",
+    "length": 3258331,
+    "title": "Lacticaseibacillus paracasei strain M8 chromosome, complete genome"
+  },
+  {
+    "class_id": "73",
+    "species": "Achromobacter xylosoxidans",
+    "accession": "2612449420",
+    "length": 7071873,
+    "title": "Achromobacter xylosoxidans strain H1_3_1 chromosome, complete genome"
+  },
+  {
+    "class_id": "74",
+    "species": "Vibrio alginolyticus",
+    "accession": "3423684359",
+    "length": 5742987,
+    "title": "Vibrio alginolyticus strain PV1.1, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "75",
+    "species": "Streptomyces sanglieri",
+    "accession": "2790379333",
+    "length": 9856091,
+    "title": "Streptomyces sanglieri strain PU_15B, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "76",
+    "species": "Streptomyces coelicolor",
+    "accession": "3373406793",
+    "length": 8668266,
+    "title": "Streptomyces coelicolor strain M22 chromosome, complete genome"
+  },
+  {
+    "class_id": "77",
+    "species": "Dickeya solani",
+    "accession": "2593716204",
+    "length": 5248586,
+    "title": "Dickeya solani strain CFBP5647 chromosome, complete genome"
+  },
+  {
+    "class_id": "78",
+    "species": "Xylella fastidiosa",
+    "accession": "1212030609",
+    "length": 2813297,
+    "title": "Xylella fastidiosa strain Hib4 chromosome, complete genome"
+  },
+  {
+    "class_id": "79",
+    "species": "Streptomyces mirabilis",
+    "accession": "2351646446",
+    "length": 13283183,
+    "title": "Streptomyces mirabilis strain NBC_01741, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "80",
+    "species": "Streptococcus pyogenes",
+    "accession": "2783966112",
+    "length": 2067793,
+    "title": "Streptococcus pyogenes strain 9606/11 chromosome, complete genome"
+  },
+  {
+    "class_id": "81",
+    "species": "Pantoea agglomerans",
+    "accession": "2668454821",
+    "length": 4331596,
+    "title": "Pantoea agglomerans strain CFBP8774 chromosome, complete genome"
+  },
+  {
+    "class_id": "82",
+    "species": "Mycobacterium avium",
+    "accession": "3314751644",
+    "length": 5509335,
+    "title": "Mycobacterium avium subsp. hominissuis strain SmOp6 chromosome, complete genome"
+  },
+  {
+    "class_id": "83",
+    "species": "Mannheimia haemolytica",
+    "accession": "2529611512",
+    "length": 2828637,
+    "title": "Mannheimia haemolytica strain 192036 chromosome, complete genome"
+  },
+  {
+    "class_id": "84",
+    "species": "Leuconostoc mesenteroides",
+    "accession": "1189725240",
+    "length": 2124039,
+    "title": "Leuconostoc mesenteroides subsp. mesenteroides strain BD1710 chromosome, complete genome"
+  },
+  {
+    "class_id": "85",
+    "species": "Bacillus anthracis",
+    "accession": "755165391",
+    "length": 5321900,
+    "title": "Bacillus anthracis strain 2002013094 chromosome, complete genome"
+  },
+  {
+    "class_id": "86",
+    "species": "Streptomyces platensis",
+    "accession": "3376294714",
+    "length": 8932960,
+    "title": "Streptomyces platensis strain W-0I-i1, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "87",
+    "species": "Sinorhizobium meliloti",
+    "accession": "3340990077",
+    "length": 5278923,
+    "title": "Ensifer meliloti strain MSC1_014 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "88",
+    "species": "Mycobacterium tuberculosis",
+    "accession": "2259126277",
+    "length": 4279390,
+    "title": "Mycobacterium tuberculosis strain IMR_378, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "89",
+    "species": "Mycobacterium phlei",
+    "accession": "1003466887",
+    "length": 5349645,
+    "title": "Mycolicibacterium phlei strain CCUG 21000, complete genome"
+  },
+  {
+    "class_id": "90",
+    "species": "Corynebacterium xerosis",
+    "accession": "3403625797",
+    "length": 2696226,
+    "title": "Corynebacterium xerosis strain DSM 20743, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "91",
+    "species": "Xanthomonas oryzae",
+    "accession": "3107004773",
+    "length": 5093124,
+    "title": "Xanthomonas oryzae pv. oryzicola strain BAI119 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "92",
+    "species": "Streptomyces avermitilis",
+    "accession": "1152364433",
+    "length": 456745,
+    "title": "Streptomyces avermitilis strain MJM 7007 contig79, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "93",
+    "species": "Rhodococcus hoagii",
+    "accession": "3416714260",
+    "length": 5303696,
+    "title": "Rhodococcus (subgen. Prescottella) equi isolate PAM 2792, whole genome shotgun sequencing project"
+  },
+  {
+    "class_id": "94",
+    "species": "Rhodobacter capsulatus",
+    "accession": "3055658235",
+    "length": 3946088,
+    "title": "Rhodobacter capsulatus strain SP18 chromosome, complete genome"
+  },
+  {
+    "class_id": "95",
+    "species": "Helicobacter pylori",
+    "accession": "1964530165",
+    "length": 1745797,
+    "title": "Helicobacter pylori strain LIM-010 chromosome, complete genome"
+  },
+  {
+    "class_id": "96",
+    "species": "Enterococcus faecium",
+    "accession": "3422729594",
+    "length": 2929963,
+    "title": "Enterococcus faecium strain VRE_04 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "97",
+    "species": "Candidatus Pelagibacter ubique",
+    "accession": "2314065191",
+    "length": 1437930,
+    "title": "Candidatus Pelagibacter ubique HIMB140 HIMB140_HIMB140_contig1_C, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "98",
+    "species": "Xanthomonas campestris",
+    "accession": "3021238298",
+    "length": 5189114,
+    "title": "Xanthomonas campestris pv. incanae strain XUMN chromosome, complete genome"
+  },
+  {
+    "class_id": "99",
+    "species": "Oenococcus oeni",
+    "accession": "2260736961",
+    "length": 1989703,
+    "title": "Oenococcus oeni strain SD-2a chromosome, complete genome"
+  },
+  {
+    "class_id": "100",
+    "species": "Mycobacteruim smegmatis",
+    "accession": "NC_008596",
+    "length": 6988209,
+    "title": "pinned reference genome"
+  },
+  {
+    "class_id": "101",
+    "species": "Leuconostoc pseudomesenteroides",
+    "accession": "3181953357",
+    "length": 2260537,
+    "title": "Leuconostoc pseudomesenteroides strain HF-IBB-469 isolate LPHFIBB469 chromosome 1, complete sequence"
+  },
+  {
+    "class_id": "102",
+    "species": "Brevibacillus laterosporus",
+    "accession": "1482665955",
+    "length": 5577844,
+    "title": "Brevibacillus laterosporus strain E7593-50 chromosome, complete genome"
+  },
+  {
+    "class_id": "103",
+    "species": "Vibrio vulnificus",
+    "accession": "2883922912",
+    "length": 5193938,
+    "title": "Vibrio vulnificus strain 7356 chromosome, complete genome"
+  },
+  {
+    "class_id": "104",
+    "species": "Vibrio harveyi",
+    "accession": "2295957714",
+    "length": 3866818,
+    "title": "Vibrio harveyi strain 1 chromosome 2, complete sequence"
+  },
+  {
+    "class_id": "105",
+    "species": "Streptomyces azureus",
+    "accession": "NZ_JBMVCF000000000",
+    "length": 8945423,
+    "title": "WGS contigs merged"
+  },
+  {
+    "class_id": "106",
+    "species": "Shigella boydii",
+    "accession": "1605362559",
+    "length": 5106737,
+    "title": "Shigella boydii strain ATCC 49812 chromosome, complete genome"
+  },
+  {
+    "class_id": "107",
+    "species": "Salmonella typhimurium",
+    "accession": "2809899788",
+    "length": 5192560,
+    "title": "Salmonella enterica subsp. enterica serovar Typhimurium strain STMC125 chromosome, complete genome"
+  },
+  {
+    "class_id": "108",
+    "species": "Ruegeria pomeroyi",
+    "accession": "2056606246",
+    "length": 4131101,
+    "title": "Ruegeria pomeroyi strain DSS-3-B chromosome, complete genome"
+  },
+  {
+    "class_id": "109",
+    "species": "Prochlorococcus marinus",
+    "accession": "33239452",
+    "length": 1751080,
+    "title": "Prochlorococcus marinus subsp. marinus str. CCMP1375, complete sequence"
+  },
+  {
+    "class_id": "110",
+    "species": "Pectobacterium atrosepticum",
+    "accession": "3376078272",
+    "length": 5034998,
+    "title": "Pectobacterium atrosepticum strain LMG 2387 chromosome, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "111",
+    "species": "Lactobacillus gasseri",
+    "accession": "1199524701",
+    "length": 2129370,
+    "title": "Lactobacillus gasseri strain 4M13 chromosome, complete genome"
+  },
+  {
+    "class_id": "112",
+    "species": "Lactobacillus fermentum",
+    "accession": "1196102574",
+    "length": 2239921,
+    "title": "Limosilactobacillus fermentum strain FTDC 8312 chromosome, complete genome"
+  },
+  {
+    "class_id": "113",
+    "species": "Edwardsiella tarda",
+    "accession": "2788597829",
+    "length": 3774560,
+    "title": "Edwardsiella tarda strain GT168 chromosome, complete genome"
+  },
+  {
+    "class_id": "114",
+    "species": "Edwardsiella ictaluri",
+    "accession": "2913573678",
+    "length": 3853872,
+    "title": "Edwardsiella ictaluri strain HCF-1 chromosome, complete genome"
+  },
+  {
+    "class_id": "115",
+    "species": "Burkholderia thailandensis",
+    "accession": "3045905379",
+    "length": 3991691,
+    "title": "Burkholderia thailandensis strain 250524 chromosome I, whole genome shotgun sequence"
+  },
+  {
+    "class_id": "116",
+    "species": "Brochothrix thermosphacta",
+    "accession": "1248200806",
+    "length": 2647794,
+    "title": "Brochothrix thermosphacta strain BI chromosome, complete genome"
+  },
+  {
+    "class_id": "117",
+    "species": "Acinetobacter johnsonii",
+    "accession": "3362755205",
+    "length": 3809748,
+    "title": "Acinetobacter johnsonii strain CC chromosome, whole genome shotgun sequence"
+  }
+]

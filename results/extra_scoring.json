@@ -1,0 +1,164 @@
+[
+  {
+    "dataset": "cherry",
+    "n_test": 188,
+    "n_calibration": 187,
+    "brier_raw": 0.9742,
+    "brier_calibrated": 0.3556,
+    "reliability_diagram": [
+      {
+        "bin": 1,
+        "n": 2,
+        "mean_confidence": 0.0859,
+        "accuracy": 0.0
+      },
+      {
+        "bin": 2,
+        "n": 17,
+        "mean_confidence": 0.1526,
+        "accuracy": 0.1765
+      },
+      {
+        "bin": 3,
+        "n": 21,
+        "mean_confidence": 0.2501,
+        "accuracy": 0.2857
+      },
+      {
+        "bin": 4,
+        "n": 10,
+        "mean_confidence": 0.3379,
+        "accuracy": 0.2
+      },
+      {
+        "bin": 5,
+        "n": 11,
+        "mean_confidence": 0.4524,
+        "accuracy": 0.6364
+      },
+      {
+        "bin": 6,
+        "n": 10,
+        "mean_confidence": 0.5456,
+        "accuracy": 0.8
+      },
+      {
+        "bin": 7,
+        "n": 16,
+        "mean_confidence": 0.648,
+        "accuracy": 0.875
+      },
+      {
+        "bin": 8,
+        "n": 18,
+        "mean_confidence": 0.7492,
+        "accuracy": 0.8889
+      },
+      {
+        "bin": 9,
+        "n": 29,
+        "mean_confidence": 0.8539,
+        "accuracy": 1.0
+      },
+      {
+        "bin": 10,
+        "n": 54,
+        "mean_confidence": 0.9382,
+        "accuracy": 0.9815
+      }
+    ],
+    "conformal": {
+      "alpha": 0.1,
+      "quantile": 0.9841,
+      "empirical_coverage": 0.9202,
+      "mean_prediction_set_size": 5.66
+    },
+    "energy_ood_auroc": 0.936,
+    "frequency_baselines": {
+      "uniform_random": 0.0049,
+      "majority_class": 0.1755,
+      "candidate_host_classes": 206
+    }
+  },
+  {
+    "dataset": "deephost",
+    "n_test": 285,
+    "n_calibration": 284,
+    "brier_raw": 0.9492,
+    "brier_calibrated": 0.3721,
+    "reliability_diagram": [
+      {
+        "bin": 1,
+        "n": 0,
+        "mean_confidence": null,
+        "accuracy": null
+      },
+      {
+        "bin": 2,
+        "n": 10,
+        "mean_confidence": 0.1591,
+        "accuracy": 0.2
+      },
+      {
+        "bin": 3,
+        "n": 13,
+        "mean_confidence": 0.243,
+        "accuracy": 0.0769
+      },
+      {
+        "bin": 4,
+        "n": 17,
+        "mean_confidence": 0.3588,
+        "accuracy": 0.3529
+      },
+      {
+        "bin": 5,
+        "n": 58,
+        "mean_confidence": 0.4661,
+        "accuracy": 0.8276
+      },
+      {
+        "bin": 6,
+        "n": 13,
+        "mean_confidence": 0.5573,
+        "accuracy": 0.4615
+      },
+      {
+        "bin": 7,
+        "n": 14,
+        "mean_confidence": 0.6582,
+        "accuracy": 0.7857
+      },
+      {
+        "bin": 8,
+        "n": 17,
+        "mean_confidence": 0.7642,
+        "accuracy": 0.7059
+      },
+      {
+        "bin": 9,
+        "n": 25,
+        "mean_confidence": 0.8612,
+        "accuracy": 0.8
+      },
+      {
+        "bin": 10,
+        "n": 118,
+        "mean_confidence": 0.966,
+        "accuracy": 0.9915
+      }
+    ],
+    "conformal": {
+      "alpha": 0.1,
+      "quantile": 0.9755,
+      "empirical_coverage": 0.8877,
+      "mean_prediction_set_size": 2.747
+    },
+    "energy_ood_auroc": 0.8988,
+    "frequency_baselines": {
+      "uniform_random": 0.0093,
+      "majority_class": 0.1614,
+      "candidate_host_classes": 108
+    }
+  }
+]

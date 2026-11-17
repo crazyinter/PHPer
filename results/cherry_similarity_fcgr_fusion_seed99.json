@@ -1,0 +1,20 @@
+{
+  "dataset": "cherry",
+  "seed": 99,
+  "split_type": "similarity",
+  "variant": "fcgr",
+  "N": 1875,
+  "hosts": 206,
+  "split": [
+    1500,
+    188,
+    187
+  ],
+  "test_top1": 0.4064171314239502,
+  "test_top5": 0.6203208565711975,
+  "test_mrr": 0.5118271708488464,
+  "macro_precision": 0.21128961618092054,
+  "macro_recall": 0.21792758523527755,
+  "macro_f1": 0.2006771857733396,
+  "seconds": 151.0
+}

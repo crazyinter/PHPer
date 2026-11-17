@@ -1,0 +1,24 @@
+{
+  "single_model_name": "BMKMPHI",
+  "full_name": "[full expansion to be provided by authors]",
+  "definition_rule": "BMKMPHI is the single formal model name and is defined at first use with its full expansion; the acronym is then used consistently throughout",
+  "core_block": {
+    "term": "bidirectional Mamba2 block",
+    "definition": "one forward and one reverse Mamba2 layer applied to the spatial tokens, with their outputs summed",
+    "do_not_use_in_prose": ["Nd-Mamba2", "BiMamba2", "NdMamba2", "Mamba 2"],
+    "note": "the code class name NdMamba2_2d may remain in source files, but the prose always says 'bidirectional Mamba2 block' or, after first use, 'the Mamba2 block'"
+  },
+  "variant_names": {
+    "full": "BMKMPHI (full model)",
+    "cnn_only": "CNN-only variant (Mamba2 block removed)",
+    "ce": "cross-entropy variant (separate softmax pipeline)",
+    "protein_only": "protein-only variant",
+    "fusion": "fusion variant"
+  },
+  "consistency_rules": [
+    "use BMKMPHI for the method as a whole, never Nd-Mamba2 as the model name",
+    "use 'bidirectional Mamba2 block' for the architectural component, never alternate spellings",
+    "define every acronym at first occurrence",
+    "keep the same spelling in tables, figures, captions and body text"
+  ]
+}

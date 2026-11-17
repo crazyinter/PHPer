@@ -1,0 +1,6 @@
+{
+  "Table 3 (architecture, 120-epoch train.py)": "cherry_{split}_cnn_mamba_fcgr_contrastive + cnn/ce/random/phagecgrnet runs",
+  "Table 4 (threshold sweep, single seed 123)": "threshold_sensitivity.json; 0.05 value equals cherry_similarity_fcgr_fusion_seed123",
+  "Table 6 (representation, 100-epoch train_fusion.py)": "cherry_{split}_{fcgr,protein,fusion}_fusion_seed*",
+  "Table 9 (DeepHost replication)": "deephost_{split}_{fcgr,protein,fusion}_seed*"
+}

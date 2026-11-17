@@ -1,0 +1,701 @@
+[
+  {
+    "dataset": "cherry",
+    "n_species": 206,
+    "n_genera": 105,
+    "multi_species_genera": 36,
+    "host_tree_pc_explained_variance": [
+      0.6910250186920166,
+      0.08281173557043076,
+      0.04110361263155937,
+      0.03346793353557587,
+      0.01819167658686638,
+      0.016055937856435776,
+      0.012567698955535889,
+      0.010248717851936817,
+      0.00990994367748499,
+      0.006732764653861523
+    ],
+    "tree_linkage": "average linkage on host FCGR Euclidean distances",
+    "random_split": {
+      "species_codon_baseline": {
+        "mean": 0.7797872340425532,
+        "values": [
+          0.7819,
+          0.734,
+          0.7819,
+          0.7872,
+          0.8138
+        ]
+      },
+      "genus_level_accuracy": {
+        "mean": 0.8542553191489362,
+        "values": [
+          0.8723,
+          0.8245,
+          0.8457,
+          0.8298,
+          0.8989
+        ]
+      },
+      "genus_residualized_species": {
+        "mean": 0.3085106382978723,
+        "values": [
+          0.2926,
+          0.2926,
+          0.3245,
+          0.3191,
+          0.3138
+        ]
+      },
+      "treePC_residualized_species": {
+        "mean": 0.7436170212765958,
+        "values": [
+          0.7447,
+          0.7074,
+          0.7287,
+          0.7713,
+          0.766
+        ]
+      },
+      "within_genus_species_accuracy": {
+        "mean": 0.8574924600681835,
+        "values": [
+          0.8537,
+          0.8596,
+          0.8397,
+          0.8632,
+          0.8712
+        ]
+      },
+      "within_genus_detail_seed123": [
+        {
+          "genus": "Acinetobacter",
+          "n_test": 2,
+          "correct": 2
+        },
+        {
+          "genus": "Aeromonas",
+          "n_test": 2,
+          "correct": 1
+        },
+        {
+          "genus": "Bacillus",
+          "n_test": 13,
+          "correct": 9
+        },
+        {
+          "genus": "Brucella",
+          "n_test": 1,
+          "correct": 0
+        },
+        {
+          "genus": "Burkholderia",
+          "n_test": 1,
+          "correct": 0
+        },
+        {
+          "genus": "Clostridium",
+          "n_test": 3,
+          "correct": 3
+        },
+        {
+          "genus": "Enterobacter",
+          "n_test": 1,
+          "correct": 0
+        },
+        {
+          "genus": "Enterococcus",
+          "n_test": 6,
+          "correct": 6
+        },
+        {
+          "genus": "Erwinia",
+          "n_test": 1,
+          "correct": 1
+        },
+        {
+          "genus": "Flavobacterium",
+          "n_test": 1,
+          "correct": 1
+        },
+        {
+          "genus": "Gordonia",
+          "n_test": 7,
+          "correct": 7
+        },
+        {
+          "genus": "Haloarcula",
+          "n_test": 1,
+          "correct": 1
+        },
+        {
+          "genus": "Klebsiella",
+          "n_test": 1,
+          "correct": 1
+        },
+        {
+          "genus": "Lactobacillus",
+          "n_test": 1,
+          "correct": 1
+        },
+        {
+          "genus": "Lactococcus",
+          "n_test": 7,
+          "correct": 6
+        },
+        {
+          "genus": "Leuconostoc",
+          "n_test": 1,
+          "correct": 1
+        },
+        {
+          "genus": "Mycolicibacterium",
+          "n_test": 37,
+          "correct": 37
+        },
+        {
+          "genus": "Pseudomonas",
+          "n_test": 18,
+          "correct": 16
+        },
+        {
+          "genus": "Ralstonia",
+          "n_test": 1,
+          "correct": 1
+        },
+        {
+          "genus": "Rhizobium",
+          "n_test": 1,
+          "correct": 0
+        },
+        {
+          "genus": "Rhodococcus",
+          "n_test": 2,
+          "correct": 2
+        },
+        {
+          "genus": "Staphylococcus",
+          "n_test": 5,
+          "correct": 5
+        },
+        {
+          "genus": "Streptococcus",
+          "n_test": 4,
+          "correct": 3
+        },
+        {
+          "genus": "Streptomyces",
+          "n_test": 1,
+          "correct": 0
+        },
+        {
+          "genus": "Synechococcus",
+          "n_test": 2,
+          "correct": 2
+        },
+        {
+          "genus": "Vibrio",
+          "n_test": 9,
+          "correct": 6
+        },
+        {
+          "genus": "Yersinia",
+          "n_test": 3,
+          "correct": 3
+        }
+      ]
+    },
+    "similarity_seed123": {
+      "species_codon_baseline": {
+        "mean": 0.5401069518716578,
+        "values": [
+          0.5401
+        ]
+      },
+      "genus_level_accuracy": {
+        "mean": 0.7005347593582888,
+        "values": [
+          0.7005
+        ]
+      },
+      "genus_residualized_species": {
+        "mean": 0.15508021390374332,
+        "values": [
+          0.1551
+        ]
+      },
+      "treePC_residualized_species": {
+        "mean": 0.5240641711229946,
+        "values": [
+          0.5241
+        ]
+      },
+      "within_genus_species_accuracy": {
+        "mean": 0.680672268907563,
+        "values": [
+          0.6807
+        ]
+      },
+      "within_genus_detail_seed123": [
+        {
+          "genus": "Acinetobacter",
+          "n_test": 3,
+          "correct": 3
+        },
+        {
+          "genus": "Aeromonas",
+          "n_test": 2,
+          "correct": 1
+        },
+        {
+          "genus": "Bacillus",
+          "n_test": 14,
+          "correct": 10
+        },
+        {
+          "genus": "Burkholderia",
+          "n_test": 7,
+          "correct": 3
+        },
+        {
+          "genus": "Candidatus",
+          "n_test": 1,
+          "correct": 1
+        },
+        {
+          "genus": "Citrobacter",
+          "n_test": 3,
+          "correct": 2
+        },
+        {
+          "genus": "Clostridium",
+          "n_test": 2,
+          "correct": 1
+        },
+        {
+          "genus": "Enterococcus",
+          "n_test": 2,
+          "correct": 2
+        },
+        {
+          "genus": "Erwinia",
+          "n_test": 3,
+          "correct": 3
+        },
+        {
+          "genus": "Gordonia",
+          "n_test": 10,
+          "correct": 6
+        },
+        {
+          "genus": "Klebsiella",
+          "n_test": 2,
+          "correct": 1
+        },
+        {
+          "genus": "Lactobacillus",
+          "n_test": 8,
+          "correct": 1
+        },
+        {
+          "genus": "Lactococcus",
+          "n_test": 4,
+          "correct": 3
+        },
+        {
+          "genus": "Leuconostoc",
+          "n_test": 2,
+          "correct": 2
+        },
+        {
+          "genus": "Mycolicibacterium",
+          "n_test": 12,
+          "correct": 12
+        },
+        {
+          "genus": "Pectobacterium",
+          "n_test": 1,
+          "correct": 0
+        },
+        {
+          "genus": "Pseudomonas",
+          "n_test": 12,
+          "correct": 9
+        },
+        {
+          "genus": "Ralstonia",
+          "n_test": 3,
+          "correct": 3
+        },
+        {
+          "genus": "Rhodococcus",
+          "n_test": 3,
+          "correct": 3
+        },
+        {
+          "genus": "Shigella",
+          "n_test": 3,
+          "correct": 2
+        },
+        {
+          "genus": "Staphylococcus",
+          "n_test": 4,
+          "correct": 4
+        },
+        {
+          "genus": "Streptococcus",
+          "n_test": 3,
+          "correct": 2
+        },
+        {
+          "genus": "Streptomyces",
+          "n_test": 3,
+          "correct": 1
+        },
+        {
+          "genus": "Synechococcus",
+          "n_test": 4,
+          "correct": 3
+        },
+        {
+          "genus": "Vibrio",
+          "n_test": 4,
+          "correct": 1
+        },
+        {
+          "genus": "Xanthomonas",
+          "n_test": 2,
+          "correct": 0
+        },
+        {
+          "genus": "Yersinia",
+          "n_test": 2,
+          "correct": 2
+        }
+      ]
+    }
+  },
+  {
+    "dataset": "deephost",
+    "n_species": 118,
+    "n_genera": 60,
+    "multi_species_genera": 25,
+    "host_tree_pc_explained_variance": [
+      0.705074667930603,
+      0.0833345353603363,
+      0.05255204811692238,
+      0.03009575605392456,
+      0.018726393580436707,
+      0.013248921371996403,
+      0.012375793419778347,
+      0.010179680772125721,
+      0.008642561733722687,
+      0.006340406369417906
+    ],
+    "tree_linkage": "average linkage on host FCGR Euclidean distances",
+    "random_split": {
+      "species_codon_baseline": {
+        "mean": 0.8287719298245614,
+        "values": [
+          0.8035,
+          0.814,
+          0.8386,
+          0.8632,
+          0.8246
+        ]
+      },
+      "genus_level_accuracy": {
+        "mean": 0.8898245614035089,
+        "values": [
+          0.8667,
+          0.8772,
+          0.8947,
+          0.9018,
+          0.9088
+        ]
+      },
+      "genus_residualized_species": {
+        "mean": 0.28421052631578947,
+        "values": [
+          0.2667,
+          0.3018,
+          0.3088,
+          0.2772,
+          0.2667
+        ]
+      },
+      "treePC_residualized_species": {
+        "mean": 0.8217543859649122,
+        "values": [
+          0.8105,
+          0.8175,
+          0.8351,
+          0.8316,
+          0.814
+        ]
+      },
+      "within_genus_species_accuracy": {
+        "mean": 0.8894140478636574,
+        "values": [
+          0.8918,
+          0.8789,
+          0.8895,
+          0.9064,
+          0.8804
+        ]
+      },
+      "within_genus_detail_seed123": [
+        {
+          "genus": "Acinetobacter",
+          "n_test": 5,
+          "correct": 5
+        },
+        {
+          "genus": "Aeromonas",
+          "n_test": 1,
+          "correct": 0
+        },
+        {
+          "genus": "Bacillus",
+          "n_test": 14,
+          "correct": 11
+        },
+        {
+          "genus": "Burkholderia",
+          "n_test": 6,
+          "correct": 3
+        },
+        {
+          "genus": "Clostridium",
+          "n_test": 2,
+          "correct": 2
+        },
+        {
+          "genus": "Enterococcus",
+          "n_test": 6,
+          "correct": 6
+        },
+        {
+          "genus": "Gordonia",
+          "n_test": 9,
+          "correct": 8
+        },
+        {
+          "genus": "Lactobacillus",
+          "n_test": 2,
+          "correct": 2
+        },
+        {
+          "genus": "Leuconostoc",
+          "n_test": 1,
+          "correct": 1
+        },
+        {
+          "genus": "Mycobacterium",
+          "n_test": 45,
+          "correct": 41
+        },
+        {
+          "genus": "Pectobacterium",
+          "n_test": 2,
+          "correct": 1
+        },
+        {
+          "genus": "Propionibacterium",
+          "n_test": 11,
+          "correct": 11
+        },
+        {
+          "genus": "Pseudomonas",
+          "n_test": 25,
+          "correct": 23
+        },
+        {
+          "genus": "Rhodococcus",
+          "n_test": 1,
+          "correct": 0
+        },
+        {
+          "genus": "Salmonella",
+          "n_test": 18,
+          "correct": 18
+        },
+        {
+          "genus": "Shigella",
+          "n_test": 6,
+          "correct": 3
+        },
+        {
+          "genus": "Staphylococcus",
+          "n_test": 12,
+          "correct": 12
+        },
+        {
+          "genus": "Streptococcus",
+          "n_test": 5,
+          "correct": 5
+        },
+        {
+          "genus": "Streptomyces",
+          "n_test": 2,
+          "correct": 0
+        },
+        {
+          "genus": "Vibrio",
+          "n_test": 9,
+          "correct": 8
+        },
+        {
+          "genus": "Xanthomonas",
+          "n_test": 1,
+          "correct": 1
+        },
+        {
+          "genus": "Yersinia",
+          "n_test": 1,
+          "correct": 1
+        }
+      ]
+    },
+    "similarity_seed123": {
+      "species_codon_baseline": {
+        "mean": 0.6338028169014085,
+        "values": [
+          0.6338
+        ]
+      },
+      "genus_level_accuracy": {
+        "mean": 0.7147887323943662,
+        "values": [
+          0.7148
+        ]
+      },
+      "genus_residualized_species": {
+        "mean": 0.14788732394366197,
+        "values": [
+          0.1479
+        ]
+      },
+      "treePC_residualized_species": {
+        "mean": 0.5669014084507042,
+        "values": [
+          0.5669
+        ]
+      },
+      "within_genus_species_accuracy": {
+        "mean": 0.7916666666666666,
+        "values": [
+          0.7917
+        ]
+      },
+      "within_genus_detail_seed123": [
+        {
+          "genus": "Acinetobacter",
+          "n_test": 5,
+          "correct": 4
+        },
+        {
+          "genus": "Aeromonas",
+          "n_test": 3,
+          "correct": 2
+        },
+        {
+          "genus": "Bacillus",
+          "n_test": 17,
+          "correct": 10
+        },
+        {
+          "genus": "Burkholderia",
+          "n_test": 3,
+          "correct": 0
+        },
+        {
+          "genus": "Edwardsiella",
+          "n_test": 3,
+          "correct": 2
+        },
+        {
+          "genus": "Enterococcus",
+          "n_test": 6,
+          "correct": 6
+        },
+        {
+          "genus": "Gordonia",
+          "n_test": 11,
+          "correct": 10
+        },
+        {
+          "genus": "Lactobacillus",
+          "n_test": 4,
+          "correct": 3
+        },
+        {
+          "genus": "Microbacterium",
+          "n_test": 2,
+          "correct": 2
+        },
+        {
+          "genus": "Mycobacterium",
+          "n_test": 26,
+          "correct": 24
+        },
+        {
+          "genus": "Pectobacterium",
+          "n_test": 5,
+          "correct": 2
+        },
+        {
+          "genus": "Propionibacterium",
+          "n_test": 7,
+          "correct": 7
+        },
+        {
+          "genus": "Pseudomonas",
+          "n_test": 21,
+          "correct": 15
+        },
+        {
+          "genus": "Rhodococcus",
+          "n_test": 3,
+          "correct": 3
+        },
+        {
+          "genus": "Salmonella",
+          "n_test": 15,
+          "correct": 14
+        },
+        {
+          "genus": "Shigella",
+          "n_test": 6,
+          "correct": 5
+        },
+        {
+          "genus": "Staphylococcus",
+          "n_test": 8,
+          "correct": 7
+        },
+        {
+          "genus": "Streptococcus",
+          "n_test": 8,
+          "correct": 8
+        },
+        {
+          "genus": "Streptomyces",
+          "n_test": 6,
+          "correct": 3
+        },
+        {
+          "genus": "Vibrio",
+          "n_test": 8,
+          "correct": 5
+        },
+        {
+          "genus": "Yersinia",
+          "n_test": 1,
+          "correct": 1
+        }
+      ]
+    }
+  }
+]

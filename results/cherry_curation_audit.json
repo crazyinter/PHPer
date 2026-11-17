@@ -1,0 +1,47 @@
+{
+  "raw_pairs": 2097,
+  "pairs_missing_sequence": 222,
+  "pairs_with_empty_species": 157,
+  "empty_species_with_genus_label": 142,
+  "retained_pairs_with_sequence": 1875,
+  "unique_retained_phages": 1875,
+  "multilabel_phages": 0,
+  "final_occupied_host_species": 206,
+  "host_classes_with_ge5": 59,
+  "singleton_host_classes": 88,
+  "rule": "Only species-level labels are used; empty-species and genus-only records never enter training as positives. No genus fallback is applied.",
+  "largest_classes": [
+    [
+      "Mycolicibacterium smegmatis",
+      312
+    ],
+    [
+      "Escherichia coli",
+      226
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      117
+    ],
+    [
+      "Salmonella enterica",
+      85
+    ],
+    [
+      "Staphylococcus aureus",
+      65
+    ],
+    [
+      "Lactococcus lactis",
+      62
+    ],
+    [
+      "Cutibacterium acnes",
+      61
+    ],
+    [
+      "Gordonia terrae",
+      53
+    ]
+  ]
+}

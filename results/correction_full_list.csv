@@ -1,0 +1,14 @@
+family,rank,context,contrast,n_seeds,raw_p_full,holm_recomputed,bh_recomputed,reported_holm,reported_bh,match
+F1 (global),1,"CHERRY, full model leakage",Random split vs Similarity split,5,0.000250,0.003250,0.002990,0.0033,0.0030,yes
+F1 (global),2,"DeepHost, similarity",Fusion vs FCGR,5,0.000680,0.008160,0.002990,0.0082,0.0030,yes
+F1 (global),3,"CHERRY, random",Protein vs FCGR,5,0.000840,0.009240,0.002990,0.0092,0.0030,yes
+F1 (global),4,"DeepHost, similarity",Protein vs FCGR,5,0.000920,0.009240,0.002990,0.0092,0.0030,yes
+F1 (global),5,"DeepHost, random",Fusion vs FCGR,5,0.008550,0.076950,0.019977,0.0770,0.0200,yes
+F1 (global),6,"CHERRY, random",Fusion vs FCGR,5,0.009220,0.076950,0.019977,0.0770,0.0200,yes
+F1 (global),7,"CHERRY, similarity",Protein vs FCGR,5,0.014650,0.102550,0.027207,0.1026,0.0272,yes
+F1 (global),8,"DeepHost, random",Protein vs FCGR,5,0.020420,0.122520,0.033183,0.1225,0.0332,yes
+F1 (global),9,"CHERRY, similarity",Fusion vs FCGR,5,0.024640,0.123200,0.035591,0.1232,0.0356,yes
+F1 (global),10,"DeepHost, random",Fusion vs Protein,5,0.177810,0.711240,0.231153,0.7112,0.2312,yes
+F1 (global),11,"DeepHost, similarity",Fusion vs Protein,5,0.397670,1.000000,0.469974,1.0000,0.4700,yes
+F1 (global),12,"CHERRY, random",Fusion vs Protein,5,0.710200,1.000000,0.752690,1.0000,0.7527,yes
+F1 (global),13,"CHERRY, similarity",Fusion vs Protein,5,0.752690,1.000000,0.752690,1.0000,0.7527,yes

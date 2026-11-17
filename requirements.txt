@@ -1,0 +1,12 @@
+numpy
+scipy
+scikit-learn
+pandas
+matplotlib
+torch
+pyrodigal
+biopython
+einops
+python-docx
+lxml
+xlrd

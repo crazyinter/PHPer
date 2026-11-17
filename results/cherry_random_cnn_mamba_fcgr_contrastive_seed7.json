@@ -1,0 +1,22 @@
+{
+  "dataset": "cherry",
+  "seed": 7,
+  "split_type": "random",
+  "encoder": "cnn_mamba",
+  "representation": "fcgr",
+  "loss": "contrastive",
+  "N": 1875,
+  "hosts": 206,
+  "split": [
+    1500,
+    187,
+    188
+  ],
+  "test_top1": 0.7765957117080688,
+  "test_top5": 0.9042552709579468,
+  "test_mrr": 0.8292221426963806,
+  "macro_precision": 0.4942429864507787,
+  "macro_recall": 0.5213990554899647,
+  "macro_f1": 0.495385494736144,
+  "seconds": 123.4
+}

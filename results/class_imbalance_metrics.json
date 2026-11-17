@@ -1,0 +1,29 @@
+{
+  "seed": 123,
+  "split": "random",
+  "test_classes_with_support": 65,
+  "balanced_accuracy": 0.4729,
+  "top1_accuracy": 0.734,
+  "baselines": {
+    "uniform_random": 0.0049,
+    "majority_class": 0.1755
+  },
+  "stratified": {
+    "singleton_n1": {
+      "classes": 43,
+      "mean_f1": 0.3178294573643411,
+      "zero_f1": 29
+    },
+    "n2_to_n4": {
+      "classes": 14,
+      "mean_f1": 0.6386054421768709,
+      "zero_f1": 3
+    },
+    "n5_plus": {
+      "classes": 8,
+      "mean_f1": 0.8901846796212488,
+      "zero_f1": 0
+    }
+  },
+  "zero_f1_classes": 32
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "contrast": "Full vs CNN-only",
+    "split": "random",
+    "n_test": 188,
+    "top1_A": 0.734,
+    "top1_B": 0.7926,
+    "observed_delta": -0.0585,
+    "paired_bootstrap_delta_ci": [
+      -0.1011,
+      -0.0213
+    ],
+    "permutation_p": 0.011,
+    "interpretation": "sample-level paired inference over test phages; not a seed-level t-test"
+  },
+  {
+    "contrast": "Full vs CNN-only",
+    "split": "similarity",
+    "n_test": 187,
+    "top1_A": 0.4866,
+    "top1_B": 0.5401,
+    "observed_delta": -0.0535,
+    "paired_bootstrap_delta_ci": [
+      -0.107,
+      -0.0052
+    ],
+    "permutation_p": 0.066,
+    "interpretation": "sample-level paired inference over test phages; not a seed-level t-test"
+  },
+  {
+    "contrast": "FCGR vs permuted",
+    "split": "random",
+    "n_test": 188,
+    "top1_A": 0.734,
+    "top1_B": 0.7394,
+    "observed_delta": -0.0053,
+    "paired_bootstrap_delta_ci": [
+      -0.0426,
+      0.0319
+    ],
+    "permutation_p": 1.0,
+    "interpretation": "sample-level paired inference over test phages; not a seed-level t-test"
+  },
+  {
+    "contrast": "FCGR vs permuted",
+    "split": "similarity",
+    "n_test": 187,
+    "top1_A": 0.4866,
+    "top1_B": 0.4225,
+    "observed_delta": 0.0642,
+    "paired_bootstrap_delta_ci": [
+      0.0107,
+      0.123
+    ],
+    "permutation_p": 0.0425,
+    "interpretation": "sample-level paired inference over test phages; not a seed-level t-test"
+  }
+]

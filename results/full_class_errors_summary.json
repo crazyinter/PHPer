@@ -1,0 +1,18 @@
+{
+  "cherry": {
+    "classes_with_support": 65,
+    "zero_recall_classes": 32,
+    "zero_f1_classes": 32,
+    "mean_recall": 0.4729,
+    "csv": "full_class_errors_cherry.csv",
+    "figure": "fig_full_class_recall_cherry.png"
+  },
+  "deephost": {
+    "classes_with_support": 65,
+    "zero_recall_classes": 19,
+    "zero_f1_classes": 19,
+    "mean_recall": 0.6356,
+    "csv": "full_class_errors_deephost.csv",
+    "figure": "fig_full_class_recall_deephost.png"
+  }
+}

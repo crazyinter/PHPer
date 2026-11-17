@@ -1,0 +1,47 @@
+{
+  "note": "Shared architecture and feature construction. The two training objectives are configured separately and must not be conflated: see pipeline_contrastive.json (primary, distance-based) and pipeline_ce.json (softmax variant).",
+  "shared_architecture": {
+    "input": "1 x 64 x 64 (single-channel FCGR, k=6)",
+    "conv1": "Conv2d(1, 64, kernel=7, stride=2, padding=0) -> 64 x 29 x 29; BatchNorm2d; ReLU",
+    "conv2": "Conv2d(64, 128, kernel=7, stride=2, padding=0) -> 128 x 12 x 12; BatchNorm2d; ReLU",
+    "maxpool": "MaxPool2d(2) -> 128 x 6 x 6",
+    "mamba_block": "NdMamba2_2d: spatial pad 6->8 (multiple of 8), 64 tokens; fc_in Linear(128,128); one forward and one backward Mamba2 (outputs summed); fc_out Linear(128,128); crop back to 6 x 6",
+    "mamba2_inner": "d_state=128, d_conv=4, expand=2, headdim=64, d_inner=256, nheads=4, chunk_size=64; single bidirectional block (not 24 layers)",
+    "head": "flatten 128 x 6 x 6 = 4,608; fc1 Linear(4,608 -> 512); dropout rate 0",
+    "coding_encoder": "MLP 96 -> 256 -> 256 -> 512, ReLU"
+  },
+  "objective_specific_output": {
+    "contrastive_pipeline": "no classification head; 512-d embedding, Euclidean cdist ranking, BN recalibration (see pipeline_contrastive.json)",
+    "ce_pipeline": "adds Linear(512, n_candidate_hosts), softmax cross-entropy, no BN recalibration (see pipeline_ce.json)"
+  },
+  "shared_training": {
+    "batch_size": 32,
+    "optimizer": "Adam, lr=1e-3, betas=(0.9,0.999), weight_decay=0",
+    "lr_schedule": "none (constant learning rate)",
+    "grad_clip": "none",
+    "early_stopping": "no separate callback; fixed epoch budget, checkpoint with highest validation top-1 retained",
+    "mixed_precision": "none, full FP32",
+    "cudnn": "deterministic=True, benchmark=False",
+    "contrastive_margin": 1.0,
+    "split_ratio": "8:1:1",
+    "seeds": [123, 2024, 42, 7, 99]
+  },
+  "pyrodigal": {
+    "constructor": "pyrodigal.GeneFinder(meta=True)",
+    "mode": "metagenomic",
+    "translation_table": "default (table 11)",
+    "per_contig": "finder called separately on each contig; no ORF crosses a contig boundary",
+    "partial_genes": "retained and counted",
+    "overlapping_orfs": "each ORF counted independently (no de-duplication)",
+    "stop_codons": "TAA/TAG/TGA are part of the 64 ACGT codon bins and are counted in-frame",
+    "ambiguous_codons": "codons containing N are absent from the 64 ACGT index and skipped",
+    "codon_denominator": "sum of all in-frame codons across predicted ORFs; 64 frequencies sum to 1"
+  },
+  "fcgr": {
+    "k": 6,
+    "grid": "64 x 64, 4,096 cells",
+    "n_handling": "windows containing N are not counted; denominator stays L-k+1",
+    "reverse_complement": "not merged",
+    "pseudocount": "none"
+  }
+}

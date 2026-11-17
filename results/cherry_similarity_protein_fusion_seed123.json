@@ -1,0 +1,20 @@
+{
+  "dataset": "cherry",
+  "seed": 123,
+  "split_type": "similarity",
+  "variant": "protein",
+  "N": 1875,
+  "hosts": 206,
+  "split": [
+    1500,
+    188,
+    187
+  ],
+  "test_top1": 0.5668449401855469,
+  "test_top5": 0.7647058963775635,
+  "test_mrr": 0.6560059189796448,
+  "macro_precision": 0.32800641025641025,
+  "macro_recall": 0.3284761904761905,
+  "macro_f1": 0.3150437193525429,
+  "seconds": 7.8
+}
